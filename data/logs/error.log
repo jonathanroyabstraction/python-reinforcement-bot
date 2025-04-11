@@ -1,0 +1,7 @@
+2025-04-11 08:18:26 - ERROR    [ML] - Error running tests: type object 'DetectionType' has no attribute 'BUTTON'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector ui_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector text_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector entity_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector resource_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error running tests: 'DetectionResults' object has no attribute 'visualization'
+2025-04-11 15:22:03 - ERROR    [ML] - Error in detector health_text_detector: 'TextDetector' object has no attribute 'get_regions_of_interest'

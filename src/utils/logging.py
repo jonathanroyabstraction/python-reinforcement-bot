@@ -29,7 +29,8 @@ class LogCategory(Enum):
     CONTROL = "CONTROL"     # Input/output and screen capture
     COMBAT = "COMBAT"       # Combat-related activities
     NAVIGATION = "NAV"      # Movement and pathing
-    ML = "ML"               # Machine learning and recognition
+    ML = "ML"               # Machine learning
+    VISION = "VISION"       # Vision and recognition
     API = "API"             # API and external communication
     UI = "UI"               # User interface
     CONFIG = "CONFIG"       # Configuration-related logs

@@ -400,3 +400,470 @@
 2025-04-10 20:14:24 - INFO     [CONTROL] -   BGR (123, 128, 122): 1.79%
 2025-04-10 20:14:25 - INFO     [CONTROL] - Detected 815 potential text regions
 2025-04-10 20:14:25 - INFO     [SYSTEM] - All tests completed successfully. Output saved to ./data/debug
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:29:53 - INFO     [COMBAT] - Player entered combat
+2025-04-10 20:29:53 - WARNING  [SYSTEM] - Unknown resource type: FOCUS
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state saved to /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmp99oeib8k/test_state.json
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state loaded from /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmp99oeib8k/test_state.json
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:29:53 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Goldshire
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:28 - INFO     [COMBAT] - Player entered combat
+2025-04-10 20:30:28 - WARNING  [SYSTEM] - Unknown resource type: FOCUS
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Fargodeep Mine
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state updated from screen capture
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state saved to /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmpfejs2sma/test_state.json
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state loaded from /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmpfejs2sma/test_state.json
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:28 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Goldshire
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:57 - INFO     [COMBAT] - Player entered combat
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Fargodeep Mine
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state updated from screen capture
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state saved to /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmpdo36t1dz/test_state.json
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state loaded from /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmpdo36t1dz/test_state.json
+2025-04-10 20:30:57 - INFO     [SYSTEM] - Game state initialized
+2025-04-10 20:30:58 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Goldshire
+2025-04-10 20:51:26 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:12:26 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:14:48 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:18:01 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:18:11 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:18:26 - ERROR    [ML] - Error running tests: type object 'DetectionType' has no attribute 'BUTTON'
+2025-04-11 08:19:27 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:19:27 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:19:27 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:19:27 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:19:27 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:19:27 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:19:27 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector ui_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector text_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector entity_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error in detector resource_detector: 'DetectionResults' object has no attribute 'extend'
+2025-04-11 08:19:27 - ERROR    [ML] - Error running tests: 'DetectionResults' object has no attribute 'visualization'
+2025-04-11 08:19:59 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:19:59 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:19:59 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:19:59 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:19:59 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:19:59 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:19:59 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:22:41 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:22:41 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:22:41 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:22:41 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:22:41 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:22:41 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:22:41 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:23:55 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:23:55 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:23:55 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:23:55 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:23:55 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:23:55 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:23:55 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:28:42 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 08:28:42 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:28:42 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:28:42 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:28:42 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:28:42 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:28:42 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:30:43 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 08:30:43 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:30:43 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:30:43 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:30:43 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:30:43 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:30:43 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:32:14 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 08:32:14 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:32:14 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:32:14 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:32:14 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:32:14 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:32:14 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:49:31 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:49:36 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:49:42 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:49:42 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 08:49:42 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 08:49:42 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 08:49:42 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 08:49:42 - INFO     [ML] - Detection Manager initialized
+2025-04-11 08:49:42 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:00:28 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-11 09:00:28 - INFO     [CONTROL] - Image processor initialized
+2025-04-11 09:00:28 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-11 09:00:28 - INFO     [SYSTEM] - Screen Capture Test Started
+2025-04-11 09:00:28 - INFO     [CONTROL] - Testing screen capture...
+2025-04-11 09:00:28 - INFO     [CONTROL] - Full screen capture completed in 100.57ms
+2025-04-11 09:00:28 - INFO     [CONTROL] - Screen dimensions: 3840x2160
+2025-04-11 09:00:28 - INFO     [CONTROL] - Saved screenshot to ./data/screenshots/full_screen_20250411-090028.png
+2025-04-11 09:00:28 - INFO     [CONTROL] - Saved full screen to ./data/screenshots/full_screen_20250411-090028.png
+2025-04-11 09:00:28 - INFO     [CONTROL] - Testing capture performance (10 frames)...
+2025-04-11 09:00:28 - INFO     [CONTROL] - 10 captures completed in 76.38ms (avg: 7.64ms/frame)
+2025-04-11 09:00:28 - INFO     [CONTROL] - Capture statistics: {'last_ms': 0.0, 'avg_ms': 16.120553016662598, 'total': 12, 'cached': 9, 'cache_hit_ratio': 0.75}
+2025-04-11 09:00:28 - INFO     [CONTROL] - Testing image processing...
+2025-04-11 09:00:28 - INFO     [CONTROL] - Resized image to 800x450
+2025-04-11 09:00:28 - INFO     [CONTROL] - Applied normalization
+2025-04-11 09:00:28 - INFO     [CONTROL] - Applied edge detection
+2025-04-11 09:00:34 - INFO     [CONTROL] - Dominant colors:
+2025-04-11 09:00:34 - INFO     [CONTROL] -   BGR (49, 49, 49): 58.88%
+2025-04-11 09:00:34 - INFO     [CONTROL] -   BGR (0, 0, 0): 32.85%
+2025-04-11 09:00:34 - INFO     [CONTROL] -   BGR (79, 79, 79): 3.97%
+2025-04-11 09:00:34 - INFO     [CONTROL] -   BGR (174, 174, 173): 2.60%
+2025-04-11 09:00:34 - INFO     [CONTROL] -   BGR (125, 126, 126): 1.71%
+2025-04-11 09:00:35 - INFO     [CONTROL] - Detected 714 potential text regions
+2025-04-11 09:00:35 - INFO     [SYSTEM] - All tests completed successfully. Output saved to ./data/debug
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:01:31 - INFO     [COMBAT] - Player entered combat
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Fargodeep Mine
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state updated from screen capture
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state saved to /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmp63wwka7w/test_state.json
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state loaded from /var/folders/k4/zvxzx5z97pvgjljzw6bzwfbm0000gn/T/tmp63wwka7w/test_state.json
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:01:31 - INFO     [SYSTEM] - Zone updated: Elwynn Forest - Goldshire
+2025-04-11 09:08:08 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:08:08 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:08:08 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:08:08 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:08:08 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:08:08 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:08:08 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:09:23 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:09:23 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:09:23 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:09:23 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:09:23 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:09:23 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:09:23 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:12:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:12:48 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:12:48 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:12:48 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:12:48 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:12:48 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:12:48 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:12:54 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:12:54 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:12:54 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:12:54 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:12:54 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:12:54 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:12:54 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:12:59 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:12:59 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:12:59 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:12:59 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:12:59 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:12:59 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:12:59 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:18:16 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:18:16 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:18:16 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:18:16 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:18:16 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:18:16 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:18:16 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:20:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:20:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:20:00 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:20:00 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:20:00 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:20:00 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:20:00 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:20:00 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:21:27 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:21:27 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:21:27 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:21:27 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:21:27 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:21:27 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:21:27 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:21:27 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:25:12 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:25:12 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:25:12 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:25:12 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:25:12 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:25:12 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:25:12 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:25:12 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:26:09 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:26:09 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:26:09 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:26:09 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:26:09 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:26:09 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:26:09 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:26:09 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:26:36 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:26:36 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:26:36 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:26:36 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:26:36 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:26:36 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:26:36 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:26:36 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:26:36 - INFO     [ML] - Test processing image
+2025-04-11 09:26:54 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:26:54 - INFO     [ML] - Detector initialized...
+2025-04-11 09:26:54 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:26:54 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:26:54 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:26:54 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:26:54 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:26:54 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:26:54 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:28:18 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:28:18 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:28:18 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:28:18 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:28:18 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:28:18 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:28:18 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:28:18 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:34:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:34:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:34:00 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:34:00 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:34:00 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:34:00 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:34:00 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:34:00 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:35:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:35:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:35:48 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:35:48 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:35:48 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:35:48 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:35:48 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:35:48 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:36:20 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:36:20 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:36:20 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:36:20 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:36:20 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:36:20 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:36:20 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:36:20 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:36:49 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:36:49 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:36:49 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:36:49 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:36:49 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:36:49 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:36:49 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:36:49 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:37:38 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:37:38 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:37:38 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:37:38 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:37:38 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:37:38 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:37:38 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:37:38 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:40:08 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:40:08 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:40:08 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:40:08 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:40:08 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:40:08 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:40:08 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:40:08 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:41:04 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:41:04 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:41:04 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:41:04 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:41:04 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:41:04 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:41:04 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:41:04 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:42:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:42:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:42:24 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:42:24 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:42:24 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:42:24 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:42:24 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:42:24 - INFO     [ML] - Detection Manager initialized
+2025-04-11 09:42:32 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:42:32 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 09:42:32 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:42:32 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 09:42:32 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 09:42:32 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 09:42:32 - WARNING  [ML] - Pytesseract is not installed. Text detection will be disabled.
+2025-04-11 09:42:32 - INFO     [ML] - Detection Manager initialized
+2025-04-11 13:25:13 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 13:25:13 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 13:25:13 - INFO     [ML] - Template detector initialized with 2 templates
+2025-04-11 13:25:13 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 13:25:13 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 13:25:13 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 13:25:13 - WARNING  [ML] - Tesseract OCR initialization failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-11 13:25:13 - WARNING  [ML] - Make sure Tesseract is installed and available in PATH
+2025-04-11 13:25:13 - INFO     [ML] - Detection Manager initialized
+2025-04-11 13:32:33 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 13:32:33 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 13:32:33 - INFO     [ML] - Template detector initialized with 2 templates
+2025-04-11 13:32:33 - WARNING  [ML] - Templates directory does not exist: data/templates/entities
+2025-04-11 13:32:33 - INFO     [ML] - Template detector initialized with 0 templates
+2025-04-11 13:32:33 - INFO     [ML] - Color detector initialized with 7 profiles
+2025-04-11 13:32:35 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 13:32:35 - INFO     [ML] - Detection Manager initialized
+2025-04-11 13:32:40 - WARNING  [ML] - Text detection on entire frame is inefficient. Consider specifying regions.
+2025-04-11 15:11:59 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:12:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:12:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:12:25 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:14:47 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:14:47 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:14:47 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:14:47 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:14:47 - WARNING  [ML] - Text detection on entire frame is inefficient. Consider specifying regions.
+2025-04-11 15:20:30 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:20:30 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:20:30 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:20:30 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:20:30 - WARNING  [ML] - Text detection on entire frame is inefficient. Consider specifying regions.
+2025-04-11 15:22:02 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:22:02 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:22:02 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:22:02 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:22:03 - ERROR    [ML] - Error in detector health_text_detector: 'TextDetector' object has no attribute 'get_regions_of_interest'
+2025-04-11 15:22:20 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:22:20 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:22:20 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:22:20 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:22:20 - WARNING  [ML] - Text detection on entire frame is inefficient. Consider specifying regions.
+2025-04-11 15:23:45 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:23:45 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:23:45 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:23:45 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:24:49 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:24:49 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:24:49 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:24:49 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:25:16 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:25:16 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:25:16 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:25:16 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:25:36 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:25:36 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:25:36 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:25:36 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:27:29 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:27:29 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:27:29 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:27:29 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:27:39 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:27:39 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:27:39 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:27:39 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:34:13 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:34:13 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:34:13 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:34:13 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:34:41 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:34:41 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:34:41 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:34:41 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:35:12 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:35:12 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:35:12 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:35:12 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:38:35 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:38:35 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:38:35 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:38:35 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:40:15 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:40:15 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:40:15 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:40:15 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:41:27 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:41:27 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 15:41:27 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:41:27 - INFO     [ML] - Detection Manager initialized
+2025-04-11 15:44:26 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:45:03 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:47:06 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:47:50 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:48:32 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:48:54 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:49:06 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:49:41 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:50:06 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:50:18 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:50:39 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:50:59 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:51:11 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:51:22 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:51:37 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:51:56 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:56:12 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 15:56:35 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:01:27 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:01:33 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:06:03 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:06:03 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:07:12 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:07:13 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:07:13 - INFO     [ML] - Tesseract OCR initialized successfully
+2025-04-11 16:15:23 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:15:23 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:15:24 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:15:36 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:15:36 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:15:36 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:15:36 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:18:17 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:18:17 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:18:17 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:18:17 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:20:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:20:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:20:48 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:20:48 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:25:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:25:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:25:25 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:25:25 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:26:09 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:26:09 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:26:09 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:26:09 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:26:09 - INFO     [VISION] - Updated player health to 103%
+2025-04-11 16:30:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:30:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:30:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:30:11 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:30:11 - INFO     [VISION] - Updated player health to 103%
+2025-04-11 16:31:37 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:31:37 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:31:37 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:31:37 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:31:38 - INFO     [VISION] - Updated player health to 100%
+2025-04-11 16:32:04 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:32:04 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 16:32:04 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 16:32:04 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 16:32:04 - INFO     [VISION] - Updated player health to 33%

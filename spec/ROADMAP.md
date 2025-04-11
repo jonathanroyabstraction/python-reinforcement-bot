@@ -2,7 +2,7 @@
 
 This roadmap outlines the step-by-step implementation plan for developing the WoW bot, breaking the project into manageable phases and specific steps. Each section includes implementation prompts designed for code generation LLMs.
 
-## Phase 1: Project Setup & Foundation
+## Phase 1: Project Setup & Foundation DONE
 
 ### Step 1.1: Project Structure & Environment Setup DONE
 
@@ -40,7 +40,7 @@ For the logging system:
 Make sure both systems are accessible throughout the application and thoroughly documented.
 ```
 
-## Phase 2: Control Module Development
+## Phase 2: Control Module Development DONE
 
 ### Step 2.1: Screen Capture & Image Processing
 
@@ -65,7 +65,7 @@ For the image processing component:
 Ensure the implementation is optimized for performance on M1 Macs and integrate with the existing logging system for debugging.
 ```
 
-### Step 2.2: Input Simulation System
+### Step 2.2: Input Simulation System DONE
 
 **Implementation Prompt:**
 ```
@@ -90,7 +90,7 @@ Ensure the system is thread-safe and optimized for performance while maintaining
 
 ## Phase 3: Decision Module Implementation
 
-### Step 3.1: Game State Representation
+### Step 3.1: Game State Representation DONE
 
 **Implementation Prompt:**
 ```
@@ -114,7 +114,7 @@ Additionally:
 The implementation should be efficient, thread-safe, and provide all necessary information for decision-making components.
 ```
 
-### Step 3.2: Object Detection System
+### Step 3.2: Object Detection System DONE
 
 **Implementation Prompt:**
 ```
