@@ -1,0 +1,154 @@
+# WoW Bot Configuration
+
+system:
+  debug_mode: true
+  log_level: INFO  # TRACE, DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_dir: ./data/logs
+  data_dir: ./data
+  logging:
+    console: true
+    file: true
+    max_size_mb: 10
+    backup_count: 5
+    categories:
+      system: INFO
+      control: INFO
+      combat: INFO
+      navigation: INFO
+      ml: INFO
+      api: INFO
+      ui: INFO
+      config: INFO
+      error: INFO
+    rotation:
+      when: midnight
+      interval: 1
+      backup_count: 7
+
+# Screen capture configuration
+screen_capture:
+  fps: 30  # Target frames per second
+  # Resolution (if not specified, will auto-detect)
+  # resolution:
+  #   width: 1920
+  #   height: 1080
+  
+  # Cached templates directory
+  template_dir: ./data/templates
+  
+  # Predefined regions of interest (ROIs)
+  regions:
+    player_frame:
+      x: 10
+      y: 10
+      width: 200
+      height: 100
+    target_frame:
+      x: 10
+      y: 120
+      width: 200
+      height: 100
+    action_bars:
+      x: 400
+      y: 900
+      width: 1000
+      height: 100
+    minimap:
+      x: 1700
+      y: 10
+      width: 200
+      height: 200
+    quest_log_area:
+      x: 1500
+      y: 300
+      width: 400
+      height: 500
+    character_frame:
+      x: 10
+      y: 10
+      width: 300
+      height: 100
+
+# Image processing configuration
+image_processing:
+  template_matching:
+    default_method: "CCOEFF_NORMED"  # SQDIFF, SQDIFF_NORMED, CCORR, CCORR_NORMED, CCOEFF, CCOEFF_NORMED
+    default_threshold: 0.8
+  
+  # Color detection thresholds
+  colors:
+    health_bar: [255, 0, 0]  # RGB format
+    mana_bar: [0, 0, 255]
+    enemy_nameplate: [255, 0, 0]
+    friendly_nameplate: [0, 255, 0]
+    neutral_nameplate: [255, 255, 0]
+  
+  # Color matching tolerance (0-255)
+  color_tolerance: 20
+
+# Input simulation configuration
+input:
+  delay:
+    min_ms: 50    # Minimum delay between actions (ms)
+    max_ms: 150   # Maximum delay between actions (ms)
+  typing:
+    min_interval: 0.05  # Minimum time between keystrokes when typing
+    max_interval: 0.15  # Maximum time between keystrokes when typing
+  movement:
+    sensitivity: 1.0    # Mouse movement sensitivity multiplier
+  safety:
+    emergency_key: escape  # Key that triggers emergency stop
+    enable_emergency_key: true  # Whether to listen for emergency key
+    max_actions_per_second: 10  # Rate limiting to prevent excessive inputs
+
+# WoW-specific keybinds
+wow:
+  keybinds:
+    movement:
+      forward: w
+      backward: s
+      strafe_left: a
+      strafe_right: d
+      jump: space
+      auto_run: num_lock
+    menus:
+      character: c
+      spellbook: p
+      talents: n
+      quest_log: l
+      map: m
+      bags: b
+    combat:
+      attack: 1     # Default auto-attack key
+      interact: t   # Default interact with target key
+    targeting:
+      target_nearest: tab  # Default tab targeting
+
+
+
+# Combat configuration
+combat:
+  rotation:
+    hunter:
+      beast_mastery:
+        cooldown_usage: balanced
+        pet_management: true
+        priority:
+          - Kill Command
+          - Bestial Wrath
+          - Barbed Shot
+          - Cobra Shot
+
+# Navigation configuration
+navigation:
+  movement_speed: 1.0
+  obstacle_detection: true
+  stuck_timeout_seconds: 5.0
+
+# Error recovery configuration
+error_recovery:
+  tier1_max_attempts: 3
+  tier2_max_attempts: 2
+  tier3_max_attempts: 1
+  use_hearthstone_on_tier3: true
+  return_to_safe_zone_timeout: 60

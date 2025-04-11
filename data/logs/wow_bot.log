@@ -1,0 +1,402 @@
+2025-04-10 17:19:00 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-10 17:19:00 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-10 17:19:00 - INFO     [SYSTEM] - WoW Bot is ready. Press Ctrl+C to exit.
+2025-04-10 17:20:08 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-10 17:20:08 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-10 17:20:08 - INFO     [SYSTEM] - WoW Bot is ready. Press Ctrl+C to exit.
+2025-04-10 17:20:12 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-10 17:20:12 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-10 17:20:34 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-10 17:20:34 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-10 17:20:34 - INFO     [SYSTEM] - WoW Bot is ready. Press Ctrl+C to exit.
+2025-04-10 17:20:44 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-10 17:20:44 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-10 17:34:19 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 17:34:19 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 17:34:19 - INFO     [SYSTEM] - Screen Capture Test Started
+2025-04-10 17:34:19 - INFO     [CONTROL] - Testing screen capture...
+2025-04-10 17:34:19 - INFO     [CONTROL] - Full screen capture completed in 122.60ms
+2025-04-10 17:34:19 - INFO     [CONTROL] - Screen dimensions: 3840x2160
+2025-04-10 17:34:19 - INFO     [CONTROL] - Saved screenshot to ./data/screenshots/full_screen_20250410-173419.png
+2025-04-10 17:34:19 - INFO     [CONTROL] - Saved full screen to ./data/screenshots/full_screen_20250410-173419.png
+2025-04-10 17:34:19 - INFO     [CONTROL] - Testing capture performance (10 frames)...
+2025-04-10 17:34:19 - INFO     [CONTROL] - 10 captures completed in 55.70ms (avg: 5.57ms/frame)
+2025-04-10 17:34:19 - INFO     [CONTROL] - Capture statistics: {'last_ms': 0.0, 'avg_ms': 14.824310938517252, 'total': 12, 'cached': 9, 'cache_hit_ratio': 0.75}
+2025-04-10 17:34:19 - INFO     [CONTROL] - Testing image processing...
+2025-04-10 17:34:19 - INFO     [CONTROL] - Resized image to 800x450
+2025-04-10 17:34:19 - INFO     [CONTROL] - Applied normalization
+2025-04-10 17:34:19 - INFO     [CONTROL] - Applied edge detection
+2025-04-10 17:34:48 - INFO     [CONTROL] - Dominant colors:
+2025-04-10 17:34:48 - INFO     [CONTROL] -   BGR (23, 38, 46): 37.33%
+2025-04-10 17:34:48 - INFO     [CONTROL] -   BGR (49, 68, 70): 23.70%
+2025-04-10 17:34:48 - INFO     [CONTROL] -   BGR (3, 5, 6): 21.17%
+2025-04-10 17:34:48 - INFO     [CONTROL] -   BGR (85, 113, 113): 13.12%
+2025-04-10 17:34:48 - INFO     [CONTROL] -   BGR (137, 174, 181): 4.68%
+2025-04-10 17:34:48 - INFO     [CONTROL] - Detected 594 potential text regions
+2025-04-10 17:34:48 - INFO     [SYSTEM] - All tests completed successfully. Output saved to ./data/debug
+2025-04-10 19:58:27 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 19:58:27 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 19:58:30 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 19:58:30 - INFO     [SYSTEM] - Input Simulator Test Started
+2025-04-10 19:58:30 - INFO     [CONTROL] - Testing keyboard input...
+2025-04-10 19:58:30 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 19:58:30 - INFO     [CONTROL] - Input simulator started
+2025-04-10 19:58:30 - INFO     [CONTROL] - Queueing key press actions...
+2025-04-10 19:58:30 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 19:58:30 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': <Key.ctrl: <59>>}
+2025-04-10 19:58:30 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 19:58:30 - WARNING  [SYSTEM] - Test failed: '<' not supported between instances of 'InputAction' and 'InputAction'
+2025-04-10 19:58:30 - WARNING  [CONTROL] - EMERGENCY STOP triggered
+2025-04-10 19:59:18 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 19:59:18 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 19:59:18 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 19:59:18 - INFO     [SYSTEM] - Input Simulator Test Started
+2025-04-10 19:59:18 - INFO     [CONTROL] - Testing keyboard input...
+2025-04-10 19:59:18 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 19:59:18 - INFO     [CONTROL] - Input simulator started
+2025-04-10 19:59:18 - INFO     [CONTROL] - Queueing key press actions...
+2025-04-10 19:59:18 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 19:59:19 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': <Key.ctrl: <59>>}
+2025-04-10 19:59:19 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1}
+2025-04-10 19:59:19 - INFO     [CONTROL] - Test action (no execution): KEY_RELEASE - {'key': <Key.ctrl: <59>>}
+2025-04-10 19:59:19 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': 'c'}
+2025-04-10 19:59:19 - INFO     [CONTROL] - Test action (no execution): KEY_RELEASE - {'key': 'c'}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'H'}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': ' '}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05215337987184875}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.0870249458033005}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '!'}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.08990273826510008}
+2025-04-10 19:59:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'd'}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.06746074197418953}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.09590977510819426}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'o'}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05680910555509312}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'W'}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.096912556788457}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.08972660680623103}
+2025-04-10 19:59:21 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'o'}
+2025-04-10 19:59:21 - WARNING  [CONTROL] - Rate limit exceeded: 10 actions per second
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1350336681325423}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.10183504763637044}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '1'}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11363755347207943}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07759787892892903}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07321284793657443}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.12964225385347095}
+2025-04-10 19:59:22 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.0695711399888127}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.enter: <36>>}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.13137043976610244}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.13884698516939342}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Waiting for all actions to complete...
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07112892615649073}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.09862730566083397}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'b'}
+2025-04-10 19:59:23 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.10864458984018494}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.10730515015203539}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.12182923304011832}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'F'}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'i'}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07064818945425996}
+2025-04-10 19:59:24 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': ' '}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07353192596547284}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 't'}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.12154246853233365}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 's'}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.060477757694260975}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '/'}
+2025-04-10 19:59:25 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'c'}
+2025-04-10 19:59:26 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 19:59:26 - INFO     [CONTROL] - Keyboard input test completed
+2025-04-10 19:59:26 - INFO     [CONTROL] - Testing mouse input...
+2025-04-10 19:59:26 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 19:59:26 - INFO     [CONTROL] - Input simulator started
+2025-04-10 19:59:26 - INFO     [CONTROL] - Testing mouse movement...
+2025-04-10 19:59:26 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (960, 540), 'duration': 0.5}
+2025-04-10 19:59:27 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (-334.3984375, 48.3125), 'duration': 0.0}
+2025-04-10 19:59:28 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.left: ((1, 2, 6), 0)>, 'count': 1}
+2025-04-10 19:59:28 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (480, 270), 'duration': 0.2}
+2025-04-10 19:59:28 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05}
+2025-04-10 19:59:28 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.left: ((1, 2, 6), 0)>, 'count': 1}
+2025-04-10 19:59:29 - INFO     [CONTROL] - Test action (no execution): MOUSE_SCROLL - {'dx': 0, 'dy': -5}
+2025-04-10 19:59:29 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.right: ((3, 4, 7), 1)>, 'count': 1}
+2025-04-10 19:59:29 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (-384.3984375, 48.3125), 'duration': 0.0}
+2025-04-10 19:59:29 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.right: ((3, 4, 7), 1)>, 'count': 1}
+2025-04-10 19:59:30 - INFO     [CONTROL] - Waiting for all actions to complete...
+2025-04-10 19:59:33 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 19:59:33 - INFO     [CONTROL] - Mouse input test completed
+2025-04-10 19:59:33 - INFO     [CONTROL] - Testing complex input sequence...
+2025-04-10 19:59:33 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 19:59:33 - INFO     [CONTROL] - Input simulator started
+2025-04-10 19:59:33 - INFO     [CONTROL] - Simulating game login sequence...
+2025-04-10 19:59:33 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.enter: <36>>}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'M'}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'y'}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'h'}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'c'}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.06277834125367478}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 19:59:34 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.14847499741799985}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.09683817006071804}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.enter: <36>>}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 't'}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07812989471307348}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.0587311139850237}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1106033431732184}
+2025-04-10 19:59:35 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05757159687054755}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05796688097799688}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1314074006394661}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'C'}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1255682829167037}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1427544414460707}
+2025-04-10 19:59:36 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'c'}
+2025-04-10 19:59:37 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 19:59:38 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': 'w'}
+2025-04-10 19:59:38 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 2.0}
+2025-04-10 19:59:38 - INFO     [CONTROL] - Test action (no execution): KEY_RELEASE - {'key': 'w'}
+2025-04-10 19:59:40 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.space: ' '>}
+2025-04-10 19:59:41 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.tab: <48>>}
+2025-04-10 19:59:41 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '2'}
+2025-04-10 19:59:42 - INFO     [CONTROL] - Waiting for all actions to complete...
+2025-04-10 19:59:47 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 19:59:47 - INFO     [CONTROL] - Complex sequence test completed
+2025-04-10 19:59:47 - INFO     [CONTROL] - Testing emergency stop...
+2025-04-10 19:59:47 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 19:59:47 - INFO     [CONTROL] - Input simulator started
+2025-04-10 19:59:47 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '0'}
+2025-04-10 19:59:47 - INFO     [CONTROL] - Triggering emergency stop...
+2025-04-10 19:59:47 - WARNING  [CONTROL] - EMERGENCY STOP triggered
+2025-04-10 19:59:47 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 19:59:48 - INFO     [CONTROL] - Emergency stop test completed
+2025-04-10 19:59:48 - INFO     [SYSTEM] - All tests completed successfully
+2025-04-10 20:03:49 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:03:49 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:03:49 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:04:06 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:04:06 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:04:07 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:04:47 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:04:47 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:04:47 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:07:25 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-10 20:07:25 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-10 20:07:25 - INFO     [SYSTEM] - WoW Bot is ready. Press Ctrl+C to exit.
+2025-04-10 20:07:28 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-10 20:07:28 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-10 20:09:57 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:09:57 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:09:58 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:09:58 - INFO     [SYSTEM] - Input Simulator Test Started
+2025-04-10 20:09:58 - INFO     [CONTROL] - Testing keyboard input...
+2025-04-10 20:09:58 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 20:09:58 - INFO     [CONTROL] - Input simulator started
+2025-04-10 20:09:58 - INFO     [CONTROL] - Queueing key press actions...
+2025-04-10 20:09:58 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 20:09:58 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': <Key.ctrl: <59>>}
+2025-04-10 20:09:58 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1}
+2025-04-10 20:09:58 - INFO     [CONTROL] - Test action (no execution): KEY_RELEASE - {'key': <Key.ctrl: <59>>}
+2025-04-10 20:09:58 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': 'c'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_RELEASE - {'key': 'c'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'H'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'o'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.06738255614428278}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '!'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1345249604673696}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'd'}
+2025-04-10 20:09:59 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.06077860247244729}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.14054481310146444}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11638131995104718}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07239502298296512}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'W'}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11644312630892319}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': ' '}
+2025-04-10 20:10:00 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.06171344703984725}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'o'}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.10789694703345896}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07088597797394477}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '1'}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.13844539988034205}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11518064468473037}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1035099092792282}
+2025-04-10 20:10:01 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11655011317727634}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05077088720989939}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.enter: <36>>}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.055703928977813635}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07884252829020545}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'l'}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.12062567667826571}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Waiting for all actions to complete...
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1386003216764512}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'b'}
+2025-04-10 20:10:02 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05972072184610894}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 20:10:03 - WARNING  [CONTROL] - Rate limit exceeded: 10 actions per second
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11004200073487261}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'F'}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'i'}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07777132375849063}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.09779416733465679}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': ' '}
+2025-04-10 20:10:03 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.12682123612902732}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 't'}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1296532790703663}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 's'}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.14480170725413555}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '/'}
+2025-04-10 20:10:04 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'c'}
+2025-04-10 20:10:05 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 20:10:05 - INFO     [CONTROL] - Keyboard input test completed
+2025-04-10 20:10:05 - INFO     [CONTROL] - Testing mouse input...
+2025-04-10 20:10:05 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 20:10:05 - INFO     [CONTROL] - Input simulator started
+2025-04-10 20:10:05 - INFO     [CONTROL] - Testing mouse movement...
+2025-04-10 20:10:05 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (960, 540), 'duration': 0.5}
+2025-04-10 20:10:06 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (563.8125, 360.3359375), 'duration': 0.0}
+2025-04-10 20:10:07 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.left: ((1, 2, 6), 0)>, 'count': 1}
+2025-04-10 20:10:07 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (480, 270), 'duration': 0.2}
+2025-04-10 20:10:07 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.05}
+2025-04-10 20:10:07 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.left: ((1, 2, 6), 0)>, 'count': 1}
+2025-04-10 20:10:08 - INFO     [CONTROL] - Test action (no execution): MOUSE_SCROLL - {'dx': 0, 'dy': -5}
+2025-04-10 20:10:08 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.right: ((3, 4, 7), 1)>, 'count': 1}
+2025-04-10 20:10:08 - INFO     [CONTROL] - Test action (no execution): MOUSE_MOVE - {'position': (552.39453125, 460.8203125), 'duration': 0.0}
+2025-04-10 20:10:08 - INFO     [CONTROL] - Test action (no execution): MOUSE_CLICK - {'button': <Button.right: ((3, 4, 7), 1)>, 'count': 1}
+2025-04-10 20:10:09 - INFO     [CONTROL] - Waiting for all actions to complete...
+2025-04-10 20:10:12 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 20:10:12 - INFO     [CONTROL] - Mouse input test completed
+2025-04-10 20:10:12 - INFO     [CONTROL] - Testing complex input sequence...
+2025-04-10 20:10:12 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 20:10:12 - INFO     [CONTROL] - Input simulator started
+2025-04-10 20:10:12 - INFO     [CONTROL] - Simulating game login sequence...
+2025-04-10 20:10:12 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.enter: <36>>}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'M'}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'y'}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'h'}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.1122111295521188}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07362895126445482}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.141849736769312}
+2025-04-10 20:10:13 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.14714229179825078}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.enter: <36>>}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.10965830495267775}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'c'}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 't'}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.09433293865176104}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'r'}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.07675564304300149}
+2025-04-10 20:10:14 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'a'}
+2025-04-10 20:10:15 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11523700802922798}
+2025-04-10 20:10:15 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.11251143940298794}
+2025-04-10 20:10:15 - WARNING  [CONTROL] - Rate limit exceeded: 10 actions per second
+2025-04-10 20:10:15 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.10674230458088194}
+2025-04-10 20:10:15 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 0.06044589876521426}
+2025-04-10 20:10:15 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'C'}
+2025-04-10 20:10:15 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'c'}
+2025-04-10 20:10:16 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': 'e'}
+2025-04-10 20:10:17 - INFO     [CONTROL] - Test action (no execution): KEY_PRESS - {'key': 'w'}
+2025-04-10 20:10:17 - INFO     [CONTROL] - Test action (no execution): DELAY - {'duration': 2.0}
+2025-04-10 20:10:17 - INFO     [CONTROL] - Test action (no execution): KEY_RELEASE - {'key': 'w'}
+2025-04-10 20:10:19 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.space: ' '>}
+2025-04-10 20:10:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': <Key.tab: <48>>}
+2025-04-10 20:10:20 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '2'}
+2025-04-10 20:10:21 - INFO     [CONTROL] - Waiting for all actions to complete...
+2025-04-10 20:10:26 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 20:10:26 - INFO     [CONTROL] - Complex sequence test completed
+2025-04-10 20:10:26 - INFO     [CONTROL] - Testing emergency stop...
+2025-04-10 20:10:26 - INFO     [CONTROL] - Input simulator initialized in TESTING mode
+2025-04-10 20:10:26 - INFO     [CONTROL] - Input simulator started
+2025-04-10 20:10:26 - INFO     [CONTROL] - Test action (no execution): KEY_TAP - {'key': '0'}
+2025-04-10 20:10:26 - INFO     [CONTROL] - Triggering emergency stop...
+2025-04-10 20:10:26 - WARNING  [CONTROL] - EMERGENCY STOP triggered
+2025-04-10 20:10:26 - INFO     [CONTROL] - Input simulator stopped
+2025-04-10 20:10:27 - INFO     [CONTROL] - Emergency stop test completed
+2025-04-10 20:10:27 - INFO     [SYSTEM] - All tests completed successfully
+2025-04-10 20:12:50 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:12:50 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:12:50 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:12:50 - INFO     [SYSTEM] - Screen Capture Test Started
+2025-04-10 20:12:50 - INFO     [CONTROL] - Testing screen capture...
+2025-04-10 20:12:50 - INFO     [CONTROL] - Full screen capture completed in 74.20ms
+2025-04-10 20:12:50 - INFO     [CONTROL] - Screen dimensions: 3840x2160
+2025-04-10 20:12:50 - INFO     [CONTROL] - Saved screenshot to ./data/screenshots/full_screen_20250410-201250.png
+2025-04-10 20:12:50 - INFO     [CONTROL] - Saved full screen to ./data/screenshots/full_screen_20250410-201250.png
+2025-04-10 20:12:50 - INFO     [CONTROL] - Testing capture performance (10 frames)...
+2025-04-10 20:12:50 - INFO     [CONTROL] - 10 captures completed in 45.74ms (avg: 4.57ms/frame)
+2025-04-10 20:12:50 - INFO     [CONTROL] - Capture statistics: {'last_ms': 0.0, 'avg_ms': 11.584321657816568, 'total': 12, 'cached': 9, 'cache_hit_ratio': 0.75}
+2025-04-10 20:12:50 - INFO     [CONTROL] - Testing image processing...
+2025-04-10 20:12:50 - INFO     [CONTROL] - Resized image to 800x450
+2025-04-10 20:12:50 - INFO     [CONTROL] - Applied normalization
+2025-04-10 20:12:50 - INFO     [CONTROL] - Applied edge detection
+2025-04-10 20:14:04 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:14:04 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:14:04 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:14:04 - INFO     [SYSTEM] - Screen Capture Test Started
+2025-04-10 20:14:04 - INFO     [CONTROL] - Testing screen capture...
+2025-04-10 20:14:04 - INFO     [CONTROL] - Full screen capture completed in 100.07ms
+2025-04-10 20:14:04 - INFO     [CONTROL] - Screen dimensions: 3840x2160
+2025-04-10 20:14:04 - INFO     [CONTROL] - Saved screenshot to ./data/screenshots/full_screen_20250410-201404.png
+2025-04-10 20:14:04 - INFO     [CONTROL] - Saved full screen to ./data/screenshots/full_screen_20250410-201404.png
+2025-04-10 20:14:04 - INFO     [CONTROL] - Testing capture performance (10 frames)...
+2025-04-10 20:14:05 - INFO     [CONTROL] - 10 captures completed in 70.17ms (avg: 7.02ms/frame)
+2025-04-10 20:14:05 - INFO     [CONTROL] - Capture statistics: {'last_ms': 0.0, 'avg_ms': 15.747527281443277, 'total': 12, 'cached': 9, 'cache_hit_ratio': 0.75}
+2025-04-10 20:14:05 - INFO     [CONTROL] - Testing image processing...
+2025-04-10 20:14:05 - INFO     [CONTROL] - Resized image to 800x450
+2025-04-10 20:14:05 - INFO     [CONTROL] - Applied normalization
+2025-04-10 20:14:05 - INFO     [CONTROL] - Applied edge detection
+2025-04-10 20:14:11 - INFO     [CONTROL] - Dominant colors:
+2025-04-10 20:14:11 - INFO     [CONTROL] -   BGR (49, 49, 49): 59.57%
+2025-04-10 20:14:11 - INFO     [CONTROL] -   BGR (0, 0, 0): 31.89%
+2025-04-10 20:14:11 - INFO     [CONTROL] -   BGR (79, 80, 79): 4.04%
+2025-04-10 20:14:11 - INFO     [CONTROL] -   BGR (175, 175, 174): 2.76%
+2025-04-10 20:14:11 - INFO     [CONTROL] -   BGR (125, 127, 125): 1.74%
+2025-04-10 20:14:12 - INFO     [CONTROL] - Detected 698 potential text regions
+2025-04-10 20:14:12 - INFO     [SYSTEM] - All tests completed successfully. Output saved to ./data/debug
+2025-04-10 20:14:17 - INFO     [CONTROL] - Screen capture initialized (1920x1080)
+2025-04-10 20:14:17 - INFO     [CONTROL] - Image processor initialized
+2025-04-10 20:14:17 - INFO     [CONTROL] - Input simulator initialized in NORMAL mode
+2025-04-10 20:14:17 - INFO     [SYSTEM] - Screen Capture Test Started
+2025-04-10 20:14:17 - INFO     [CONTROL] - Testing screen capture...
+2025-04-10 20:14:17 - INFO     [CONTROL] - Full screen capture completed in 98.15ms
+2025-04-10 20:14:17 - INFO     [CONTROL] - Screen dimensions: 3840x2160
+2025-04-10 20:14:17 - INFO     [CONTROL] - Saved screenshot to ./data/screenshots/full_screen_20250410-201417.png
+2025-04-10 20:14:17 - INFO     [CONTROL] - Saved full screen to ./data/screenshots/full_screen_20250410-201417.png
+2025-04-10 20:14:17 - INFO     [CONTROL] - Testing capture performance (10 frames)...
+2025-04-10 20:14:17 - INFO     [CONTROL] - 10 captures completed in 63.71ms (avg: 6.37ms/frame)
+2025-04-10 20:14:17 - INFO     [CONTROL] - Capture statistics: {'last_ms': 0.0, 'avg_ms': 15.058954556783041, 'total': 12, 'cached': 9, 'cache_hit_ratio': 0.75}
+2025-04-10 20:14:17 - INFO     [CONTROL] - Testing image processing...
+2025-04-10 20:14:17 - INFO     [CONTROL] - Resized image to 800x450
+2025-04-10 20:14:17 - INFO     [CONTROL] - Applied normalization
+2025-04-10 20:14:17 - INFO     [CONTROL] - Applied edge detection
+2025-04-10 20:14:24 - INFO     [CONTROL] - Dominant colors:
+2025-04-10 20:14:24 - INFO     [CONTROL] -   BGR (49, 49, 49): 58.96%
+2025-04-10 20:14:24 - INFO     [CONTROL] -   BGR (0, 0, 0): 32.37%
+2025-04-10 20:14:24 - INFO     [CONTROL] -   BGR (79, 80, 79): 3.99%
+2025-04-10 20:14:24 - INFO     [CONTROL] -   BGR (175, 175, 170): 2.89%
+2025-04-10 20:14:24 - INFO     [CONTROL] -   BGR (123, 128, 122): 1.79%
+2025-04-10 20:14:25 - INFO     [CONTROL] - Detected 815 potential text regions
+2025-04-10 20:14:25 - INFO     [SYSTEM] - All tests completed successfully. Output saved to ./data/debug

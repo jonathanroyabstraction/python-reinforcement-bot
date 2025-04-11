@@ -1,0 +1,69 @@
+# WoW Bot Default Configuration
+
+# System settings
+system:
+  debug_mode: false
+  log_level: "INFO"
+  log_dir: "../data/logs"
+  data_dir: "../data"
+
+# Screen capture settings
+screen_capture:
+  fps: 20
+  resolution:
+    width: 1920
+    height: 1080
+  regions:
+    game:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    minimap:
+      x: 1670
+      y: 50
+      width: 200
+      height: 200
+    character_frame:
+      x: 10
+      y: 10
+      width: 300
+      height: 100
+    action_bars:
+      x: 500
+      y: 800
+      width: 900
+      height: 200
+
+# Input settings
+input:
+  delay:
+    min_ms: 50
+    max_ms: 150
+  movement:
+    sensitivity: 1.0
+  safety:
+    emergency_key: "escape"
+    max_actions_per_second: 10
+
+# Combat settings
+combat:
+  rotation:
+    hunter:
+      beast_mastery:
+        cooldown_usage: "aggressive"
+        pet_management: true
+        priority: ["Kill Command", "Bestial Wrath", "Barbed Shot", "Cobra Shot"]
+
+# Navigation settings
+navigation:
+  movement_speed: 1.0
+  obstacle_detection: true
+  stuck_timeout_seconds: 5.0
+  
+# Error recovery settings
+error_recovery:
+  tier1_max_attempts: 3
+  tier2_max_attempts: 2
+  tier3_max_attempts: 1
+  return_to_safe_zone_timeout: 60
