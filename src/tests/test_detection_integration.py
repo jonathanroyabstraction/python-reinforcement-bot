@@ -19,6 +19,7 @@ if project_root not in sys.path:
     sys.path.append(project_root)
 
 from src.utils.logging import configure, info, debug, warning, error, LogCategory
+from src.utils.config import ConfigManager, get_config, set_config
 from src.vision.models.detection_result import DetectionType, BoundingBox
 from src.vision.detection_manager import DetectionManager
 from src.decision.state.game_state import GameState
@@ -55,14 +56,23 @@ class DetectionObserver:
 
         print(f"\nProcessing {len(detections)} detections...")
         
-        # Process health text
+        # Process player health text
         health_detections = [d for d in detections 
-                           if d['detection_type'] == DetectionType.HEALTH_TEXT]
+            if d['detection_type'] == DetectionType.PLAYER_HEALTH_TEXT]
+
+        # Process target health text
+        target_detections = [d for d in detections 
+            if d['detection_type'] == DetectionType.TARGET_HEALTH_TEXT]
         
         if health_detections:
             # Update player health in game state
             self.game_state.player.update_health(health_detections[0]['label'])
             info(f"Updated player health to {self.game_state.player.current_health}%", LogCategory.VISION)
+
+        if target_detections:
+            # Update target health in game state
+            self.game_state.target.update_health(target_detections[0]['label'])
+            info(f"Updated target health to {self.game_state.target.current_health}%", LogCategory.VISION)
         
         # Update last update time
         self.last_update_time = current_time
@@ -294,9 +304,6 @@ def test_with_sample_image(processor: WoWScreenProcessor,
     else:
         print("  • No target selected")
     
-    # Wait for key press
-    print("\nPress any key to continue (or window will close in 5 seconds)...")
-    cv2.waitKey(5000)  # 5000ms = 5 seconds
     cv2.destroyAllWindows()
 
 

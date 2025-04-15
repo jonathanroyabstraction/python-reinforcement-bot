@@ -867,3 +867,314 @@
 2025-04-11 16:32:04 - INFO     [VISION] - Tesseract OCR initialized successfully
 2025-04-11 16:32:04 - INFO     [VISION] - Detection Manager initialized
 2025-04-11 16:32:04 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:45:05 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:45:05 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:45:05 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:45:05 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:45:05 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:45:05 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:50:02 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:50:02 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:51:20 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:51:20 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:51:20 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:51:20 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:51:20 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:51:20 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:51:54 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:51:54 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:51:54 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:51:54 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:51:54 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:51:54 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:53:10 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:53:10 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:53:10 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:53:10 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:53:10 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:53:10 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:53:51 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:53:51 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:53:51 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:53:51 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:53:51 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:53:51 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:54:05 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:54:05 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:54:05 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:54:05 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:54:05 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:54:05 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:54:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:54:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:54:25 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:54:25 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:54:25 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:54:25 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:55:38 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:55:38 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:55:38 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:55:38 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:55:38 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:55:38 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 17:58:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:58:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 17:58:24 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:58:24 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 17:58:24 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 17:58:25 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 18:00:49 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:00:49 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:00:49 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:00:49 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:00:49 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:00:50 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 18:02:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:02:24 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:02:24 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:02:24 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:02:24 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:02:25 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:02:25 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:02:56 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:02:56 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:02:56 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:02:56 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:02:56 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:02:56 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 18:05:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:05:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:05:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:05:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:05:11 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:05:11 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:05:11 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:05:41 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:05:41 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:05:41 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:05:41 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:05:41 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:05:44 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 18:06:17 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:06:17 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:06:17 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:06:17 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:06:17 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:06:20 - INFO     [VISION] - Updated player health to 33%
+2025-04-11 18:06:46 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:06:46 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:06:46 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:06:46 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:06:46 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:07:05 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:07:05 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:07:05 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:07:05 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:07:05 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:07:35 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:07:35 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:07:36 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:07:36 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:07:36 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:08:08 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:08:08 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:08:08 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:08:08 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:08:08 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:09:39 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:09:39 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:09:39 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:09:39 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:09:39 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:10:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:10:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:10:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:10:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:10:11 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:10:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:10:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:10:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:10:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:10:50 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:11:01 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:11:01 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:11:01 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:11:01 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:11:01 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:11:19 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:11:19 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:11:19 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:11:19 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:11:19 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:11:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:11:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:11:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:11:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:11:50 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:12:21 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:12:21 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:12:21 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:12:21 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:12:21 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:12:34 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:12:34 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:12:34 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:12:34 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:12:34 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:12:47 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:12:47 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:12:47 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:12:47 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:12:47 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:13:10 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:13:10 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:13:10 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:13:10 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:13:10 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:13:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:13:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:13:25 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:13:25 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:13:25 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:13:39 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:13:39 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:13:39 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:13:39 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:13:39 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:14:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:14:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:14:00 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:14:00 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:14:00 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:14:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:14:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:14:31 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:14:31 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:14:31 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:14:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:14:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:14:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:14:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:14:50 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:15:07 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:07 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:07 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:07 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:07 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:15:19 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:19 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:19 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:19 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:19 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:15:32 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:32 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:32 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:32 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:32 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:15:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:48 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:15:48 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:48 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:15:48 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:16:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:00 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:00 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:00 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:00 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:16:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:11 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:16:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:28 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:28 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:28 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:16:44 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:44 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:44 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:44 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:44 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:16:56 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:56 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:16:56 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:56 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:16:56 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:17:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:17:11 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:17:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:17:11 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:17:11 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:17:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:17:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:17:53 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:17:53 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:17:53 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:17:53 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:17:53 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:20:55 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:20:55 - INFO     [SYSTEM] - Game state initialized
+2025-04-11 18:20:56 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:20:56 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-11 18:20:56 - INFO     [VISION] - Detection Manager initialized
+2025-04-11 18:20:56 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-11 18:20:56 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-12 09:56:06 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:56:06 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:56:06 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:56:06 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:56:06 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 09:56:06 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-12 09:56:06 - WARNING  [VISION] - OCR error: Unknown C++ exception from OpenCV code
+2025-04-12 09:56:45 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:56:45 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:56:45 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:56:45 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:56:45 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 09:56:50 - INFO     [VISION] - Updated player health to 33%
+2025-04-12 09:58:38 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:58:38 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:58:38 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:58:38 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:58:38 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 09:58:49 - INFO     [VISION] - Updated player health to 33%
+2025-04-12 09:59:29 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:59:29 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 09:59:29 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:59:29 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 09:59:29 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 09:59:39 - INFO     [VISION] - Updated player health to 43%
+2025-04-12 10:03:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:03:31 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:03:31 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:03:31 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:03:31 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 10:03:42 - INFO     [VISION] - Updated player health to 43%
+2025-04-12 10:05:14 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:05:14 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:05:14 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:05:14 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:05:14 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 10:05:15 - INFO     [VISION] - Updated player health to 43%
+2025-04-12 10:08:06 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:08:06 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:08:06 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:08:06 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:08:06 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 10:08:06 - INFO     [VISION] - Updated player health to 43%
+2025-04-12 10:08:06 - INFO     [VISION] - Updated target health to 30%
+2025-04-12 10:09:10 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:09:10 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:09:10 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:09:10 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:09:10 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 10:09:10 - INFO     [VISION] - Updated player health to 43%
+2025-04-12 10:09:10 - INFO     [VISION] - Updated target health to 30%
+2025-04-12 10:10:16 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:10:16 - INFO     [SYSTEM] - Game state initialized
+2025-04-12 10:10:16 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:10:16 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-12 10:10:16 - INFO     [VISION] - Detection Manager initialized
+2025-04-12 10:10:16 - INFO     [VISION] - Updated player health to 43%
+2025-04-12 10:10:16 - INFO     [VISION] - Updated target health to 30%

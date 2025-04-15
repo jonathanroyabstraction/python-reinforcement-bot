@@ -36,8 +36,7 @@ class TargetState:
     is_rare: bool = False
     
     # Health and status
-    current_health: int = 0
-    health_max: int = 100
+    current_health: int = 0 # Current health percentage
     
     # Position and distance
     position: Position = field(default_factory=Position)
@@ -57,27 +56,22 @@ class TargetState:
     
     def health_percent(self) -> float:
         """Get target health as a percentage."""
-        if self.health_max == 0:
-            return 0.0
-        return (self.current_health / self.health_max) * 100.0
-    
+        return self.current_health
+
     def is_valid(self) -> bool:
         """Check if the target is valid (has a name and health)."""
-        return bool(self.name and self.health_max > 0)
+        return bool(self.name and self.current_health > 0)
     
     def is_in_range(self, range_yards: float) -> bool:
         """Check if the target is within specified range."""
         return self.distance <= range_yards
     
-    def update_health(self, current: int, maximum: int = None) -> None:
+    def update_health(self, current: int) -> None:
         """Update target health values."""
         self.current_health = current
-        if maximum is not None:
-            self.health_max = maximum
         self.last_updated = time.time()
         
-        debug(f"Target health: {self.current_health}/{self.health_max} ({self.health_percent():.1f}%)",
-              LogCategory.COMBAT)
+        debug(f"Target health: {self.current_health} %", LogCategory.COMBAT)
     
     def update_position(self, new_position: Position, player_position: Position) -> None:
         """Update the target's position and calculate distance to player."""
@@ -169,7 +163,6 @@ class TargetState:
             "is_elite": self.is_elite,
             "is_rare": self.is_rare,
             "current_health": self.current_health,
-            "health_max": self.health_max,
             "position": {
                 "x": self.position.x,
                 "y": self.position.y,
@@ -195,7 +188,6 @@ class TargetState:
             is_elite=data.get("is_elite", False),
             is_rare=data.get("is_rare", False),
             current_health=data.get("current_health", 0),
-            health_max=data.get("health_max", 100),
             distance=data.get("distance", 0.0),
             is_casting=data.get("is_casting", False),
             cast_name=data.get("cast_name", ""),

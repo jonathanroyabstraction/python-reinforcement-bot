@@ -16,25 +16,28 @@ from src.utils.logging import configure as configure_logging, info, error, debug
 
 def parse_args():
     """Parse command line arguments."""
-    parser = argparse.ArgumentParser(description="WoW Bot - Educational Automation Tool")
+    parser = argparse.ArgumentParser(description="Automation Tool - Deep learning based WoW bot")
     parser.add_argument(
         "--config", 
         type=str, 
         default="src/configs/config.yml",  # This is relative to project root
         help="Path to configuration file"
     )
+
     parser.add_argument(
-        "--debug", 
+        "--debug",
         action="store_true", 
         help="Enable debug mode"
     )
+
     parser.add_argument(
         "--log-level",
         type=str,
         choices=["TRACE", "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
-        default=None,
+        default="DEBUG",
         help="Set the logging level"
     )
+
     return parser.parse_args()
 
 def init_config(config_path, debug_mode, log_level):

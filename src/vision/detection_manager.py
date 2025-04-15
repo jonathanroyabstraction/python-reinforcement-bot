@@ -14,6 +14,7 @@ from collections import defaultdict
 import concurrent.futures
 
 from src.utils.logging import debug, info, warning, error, LogCategory
+from src.utils.config import ConfigManager
 from src.vision.detectors.base_detector import BaseDetector
 from src.vision.detectors.template_detector import TemplateDetector
 from src.vision.detectors.color_detector import ColorDetector
@@ -38,14 +39,15 @@ class DetectionManager:
             templates_dir: Directory for template images
             color_config_path: Path to color detector configuration
         """
-        self.detectors = {}  # type: Dict[str, BaseDetector]
-        self.region_definitions = {}  # type: Dict[str, BoundingBox]
+        self.detectors: Dict[str, BaseDetector] = {}
+        self.region_definitions: Dict[str, BoundingBox] = {}
         self.frame_count = 0
-        self.active_detectors = set()  # type: Set[str]
+        self.active_detectors: Set[str] = set()
         self.lock = threading.RLock()
         self.last_detection_time = 0.0
         self.last_detection_results = None  # type: Optional[DetectionResults]
         self.last_frame = None  # type: Optional[np.ndarray]
+        self.config_manager = ConfigManager()
         
         # Performance metrics
         self.performance_metrics = {
@@ -69,16 +71,44 @@ class DetectionManager:
             templates_dir: Directory for template images
             color_config_path: Path to color detector configuration
         """
-        health_text_detector = TextDetector(
-            name="health_text_detector",
-            detection_type=DetectionType.HEALTH_TEXT,
+        self.config_manager.load_config()
+        screen_capture_config = self.config_manager.config.get("screen_capture", {})
+        interface_regions = screen_capture_config.get("regions", {})
+
+        # Player health detector
+        player_health_text_detector = TextDetector(
+            name="player_health_text_detector",
+            detection_type=DetectionType.PLAYER_HEALTH_TEXT,
+            min_confidence=0.4,
+            enabled=True
+        )
+        
+        player_health_text_config = interface_regions.get("player_health_text", {})
+        player_health_text_detector.set_regions_of_interest({"player_health_text": BoundingBox(
+            player_health_text_config.get("x"),
+            player_health_text_config.get("y"),
+            player_health_text_config.get("width"),
+            player_health_text_config.get("height")
+        )})
+        self.add_detector(player_health_text_detector)
+
+        # Target health detector
+        target_health_text_config = interface_regions.get("target_health_text", {})
+        target_health_text_detector = TextDetector(
+            name="target_health_text_detector",
+            detection_type=DetectionType.TARGET_HEALTH_TEXT,
             min_confidence=0.4,
             enabled=True
         )
 
-        health_text_detector.set_regions_of_interest({"health_bar_label": BoundingBox(718, 753, 24, 14)})
-
-        self.add_detector(health_text_detector)
+        target_health_text_config = interface_regions.get("target_health_text", {})
+        target_health_text_detector.set_regions_of_interest({"target_health_text": BoundingBox(
+            target_health_text_config.get("x"),
+            target_health_text_config.get("y"),
+            target_health_text_config.get("width"),
+            target_health_text_config.get("height")
+        )})
+        self.add_detector(target_health_text_detector)
         
         # Activate all detectors by default
         for detector_name in self.detectors:
@@ -215,7 +245,7 @@ class DetectionManager:
               detector_names: Optional[List[str]] = None,
               region_names: Optional[List[str]] = None,
               detection_types: Optional[Set[DetectionType]] = None,
-              parallel: bool = True,
+              parallel: bool = False,
               visualization: bool = False) -> DetectionResults:
         """
         Process a frame and detect objects.
@@ -273,8 +303,9 @@ class DetectionManager:
             if parallel and len(detectors_to_use) > 1:
                 # Process detectors in parallel
                 with concurrent.futures.ThreadPoolExecutor(max_workers=len(detectors_to_use)) as executor:
+                    # For each detector, provide a copy of the frame to avoid cropping issues
                     future_to_detector = {
-                        executor.submit(detector.detect, frame, frame_id, regions): detector
+                        executor.submit(detector.detect, frame.copy(), frame_id, regions): detector
                         for detector in detectors_to_use
                     }
                     

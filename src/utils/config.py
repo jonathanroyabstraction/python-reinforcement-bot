@@ -13,7 +13,6 @@ from jsonschema import validate as json_validate, ValidationError as JsonSchemaE
 from yaml.parser import ParserError
 
 from src.utils.env import get_current_env
-from src.utils.default_config import get_default_config, get_default_for_section, get_default_value
 from src.utils.events import publish, CONFIG_CHANGED
 
 
@@ -43,8 +42,8 @@ class ConfigManager:
                         config.yml in the default location.
         """
         # Start with programmatic defaults
-        self._config: Dict[str, Any] = get_default_config()
         self._config_path = config_path or self._get_default_config_path()
+        self._config: Dict[str, Any] = {}
         self._change_listeners: Set[str] = set()  # Tracks keys with active listeners
         self._transaction_active = False  # For batch updates
         self._pending_changes: Set[str] = set()  # Changes during transaction
@@ -64,9 +63,6 @@ class ConfigManager:
             ConfigError: If the configuration file cannot be loaded or parsed.
         """
         try:
-            # Start with programmatic defaults
-            self._config = get_default_config()
-            
             # Then try to load default configuration file
             default_config_path = Path(self._config_path).parent / "default_config.yml"
             if default_config_path.exists():

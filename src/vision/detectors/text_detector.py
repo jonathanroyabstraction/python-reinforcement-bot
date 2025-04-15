@@ -100,8 +100,6 @@ class TextDetector(BaseDetector):
                 # Read text in this region
                 text, confidence = self._perform_ocr(region_frame)
 
-                print("Text detection region:", region_name, bbox, text, confidence)
-                
                 if text and confidence >= self.min_confidence:
                     # Create detection
                     detection_type = self._get_detection_type(region_name)
@@ -117,7 +115,7 @@ class TextDetector(BaseDetector):
                         }
                     )
 
-                    print("Text detection result:", detection)
+                    debug(f"Text detection result: {detection}", LogCategory.VISION)
                     
                     if detection:
                         results.add(detection)
