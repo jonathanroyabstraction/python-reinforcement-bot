@@ -253,7 +253,6 @@ class TextDetector(BaseDetector):
                 text = pytesseract.image_to_string(thresh, config=config).strip()
                 confidence = 0.5
             
-            print(f"OCR result: '{text}' with confidence {confidence}")
             return text, confidence
         except Exception as e:
             warning(f"OCR error: {str(e)}", LogCategory.VISION)

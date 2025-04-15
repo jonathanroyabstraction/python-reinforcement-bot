@@ -7,10 +7,13 @@ import os
 import sys
 import time
 from pathlib import Path
+from typing import Any, Dict, List
 
 # Simple imports that work reliably
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
+from src.decision.state import GameState
+from src.vision.main import ScreenProcessor
 from src.utils.config import ConfigManager, get_config, set_config
 from src.utils.logging import configure as configure_logging, info, error, debug, warning, critical, exception, LogCategory
 
@@ -66,6 +69,16 @@ def init_logging():
     debug("Debug mode: {}".format(get_config('system.debug_mode', False)), LogCategory.SYSTEM)
     debug("Log level: {}".format(get_config('system.log_level', 'INFO')), LogCategory.SYSTEM)
 
+def init_game_state():
+    """Initialize the game state."""
+    return
+
+def detections_callback(detections: List[Dict[str, Any]]):
+    """Callback function for detections."""
+    debug(f"Detected {len(detections)} objects from vision system", LogCategory.SYSTEM)
+    return
+    
+
 def main():
     """Main function to start the WoW Bot."""
     args = parse_args()
@@ -80,28 +93,26 @@ def main():
         
         # Initialize logging
         init_logging()
+
+        # Initialize game state
+        game_state = init_game_state()
         
-        # TODO: Initialize modules
-        # TODO: Start the bot
+        # Initialize screen processor
+        screen_processor = ScreenProcessor()
+
+        # Start processing screenshots
+        screen_processor.start_processing(detections_callback, interval=10, save_frames=True)
         
         info("WoW Bot is ready. Press Ctrl+C to exit.", LogCategory.SYSTEM)
-        print("WoW Bot is ready. Press Ctrl+C to exit.")
         
-        # Main loop will be implemented here
-        while True:
-            # Placeholder for main loop
-            time.sleep(1)
             
     except KeyboardInterrupt:
         info("Received shutdown signal", LogCategory.SYSTEM)
-        print("\nWoW Bot - Shutting down...")
     except Exception as e:
         exception("Unhandled exception: {}".format(e), LogCategory.ERROR)
-        print("Error: {}".format(e))
     finally:
         # Clean up resources
         info("Shutting down WoW Bot", LogCategory.SYSTEM)
-        print("WoW Bot - Shutdown complete.")
 
 if __name__ == "__main__":
     main()

@@ -56,7 +56,7 @@ class ColorFormatter(logging.Formatter):
         'CONTROL': '\033[36m',   # Cyan
         'COMBAT': '\033[31m',    # Red
         'NAV': '\033[32m',       # Green
-        'ML': '\033[35m',        # Magenta
+        'VISION': '\033[35m',    # Magenta
         'API': '\033[34m',       # Blue
         'UI': '\033[33m',        # Yellow
         'CONFIG': '\033[37m',    # White

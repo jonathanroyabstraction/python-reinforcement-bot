@@ -107,6 +107,8 @@ class ScreenCapture:
         # Get screen resolution from config or detect automatically
         self._width = get_config('screen_capture.resolution.width', None)
         self._height = get_config('screen_capture.resolution.height', None)
+
+        print(self._sct.monitors)
         
         if self._width is None or self._height is None:
             # Auto-detect screen resolution
@@ -125,10 +127,10 @@ class ScreenCapture:
         self._stats = CaptureStats()
         
         # Log initialization
-        info(f"Screen capture initialized ({self._width}x{self._height})", LogCategory.CONTROL)
-        debug(f"Loaded regions: {list(self._regions.keys())}", LogCategory.CONTROL)
+        info(f"Screen capture initialized ({self._width}x{self._height})", LogCategory.VISION)
+        debug(f"Loaded regions: {list(self._regions.keys())}", LogCategory.VISION)
         debug(f"Cache timeout: {self._cache_timeout_ms}ms, Min frame time: {self._min_frame_time_ms}ms", 
-              LogCategory.CONTROL)
+              LogCategory.VISION)
     
     def _load_regions_from_config(self) -> Dict[str, ScreenRegion]:
         """
@@ -190,7 +192,7 @@ class ScreenCapture:
             'width': width,
             'height': height
         }
-        debug(f"Added region '{name}': {self._regions[name]}", LogCategory.CONTROL)
+        debug(f"Added region '{name}': {self._regions[name]}", LogCategory.VISION)
     
     def capture(self, region_name: str = 'full', force_update: bool = False) -> np.ndarray:
         """
@@ -214,7 +216,7 @@ class ScreenCapture:
             # Get region information
             region = self._regions.get(region_name)
             if not region:
-                warning(f"Region '{region_name}' not found", LogCategory.CONTROL)
+                warning(f"Region '{region_name}' not found", LogCategory.VISION)
                 raise ValueError(f"Unknown screen region: {region_name}")
             
             # Check if we can use a cached frame
@@ -225,7 +227,7 @@ class ScreenCapture:
                 
                 # Use cached frame
                 self._stats.update(0.0, cached=True)
-                debug(f"Using cached frame for region '{region_name}'", LogCategory.CONTROL)
+                debug(f"Using cached frame for region '{region_name}'", LogCategory.VISION)
                 return self._frame_cache[cache_key].copy()
             
             # FPS throttling
@@ -253,7 +255,7 @@ class ScreenCapture:
             self._stats.update(capture_time)
             self._last_capture_time = time.time() * 1000  # ms
             
-            debug(f"Captured region '{region_name}' in {capture_time:.2f}ms", LogCategory.CONTROL)
+            debug(f"Captured region '{region_name}' in {capture_time:.2f}ms", LogCategory.VISION)
             
             return frame
     
@@ -282,7 +284,7 @@ class ScreenCapture:
         
         # Save the image
         cv2.imwrite(full_path, frame)
-        info(f"Saved screenshot to {full_path}", LogCategory.CONTROL)
+        info(f"Saved screenshot to {full_path}", LogCategory.VISION)
         
         return full_path
     
@@ -304,7 +306,7 @@ class ScreenCapture:
         """
         self._min_frame_time_ms = 1000.0 / max(1, fps)
         info(f"Screen capture rate set to {fps} FPS (min frame time: {self._min_frame_time_ms:.2f}ms)",
-             LogCategory.CONTROL)
+             LogCategory.VISION)
     
     def set_cache_timeout(self, timeout_ms: int) -> None:
         """
@@ -314,7 +316,7 @@ class ScreenCapture:
             timeout_ms: Cache timeout in milliseconds
         """
         self._cache_timeout_ms = timeout_ms
-        info(f"Screen capture cache timeout set to {timeout_ms}ms", LogCategory.CONTROL)
+        info(f"Screen capture cache timeout set to {timeout_ms}ms", LogCategory.VISION)
 
 
 # Create a singleton instance
