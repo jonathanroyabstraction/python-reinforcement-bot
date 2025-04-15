@@ -58,3 +58,5 @@ src/data/models/*
 .coverage
 htmlcov/
 .pytest_cache/
+
+data/logs/

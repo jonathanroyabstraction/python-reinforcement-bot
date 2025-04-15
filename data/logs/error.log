@@ -1,7 +1,24 @@
-2025-04-11 08:18:26 - ERROR    [ML] - Error running tests: type object 'DetectionType' has no attribute 'BUTTON'
-2025-04-11 08:19:27 - ERROR    [ML] - Error in detector ui_detector: 'DetectionResults' object has no attribute 'extend'
-2025-04-11 08:19:27 - ERROR    [ML] - Error in detector text_detector: 'DetectionResults' object has no attribute 'extend'
-2025-04-11 08:19:27 - ERROR    [ML] - Error in detector entity_detector: 'DetectionResults' object has no attribute 'extend'
-2025-04-11 08:19:27 - ERROR    [ML] - Error in detector resource_detector: 'DetectionResults' object has no attribute 'extend'
-2025-04-11 08:19:27 - ERROR    [ML] - Error running tests: 'DetectionResults' object has no attribute 'visualization'
-2025-04-11 15:22:03 - ERROR    [ML] - Error in detector health_text_detector: 'TextDetector' object has no attribute 'get_regions_of_interest'
+2025-04-15 17:14:13 - ERROR    [ERROR] - Unhandled exception: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+Traceback (most recent call last):
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/core/main.py", line 101, in main
+    screen_processor = ScreenProcessor()
+                       ^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/main.py", line 82, in __init__
+    self.detection_manager = DetectionManager(templates_dir=templates_dir)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/detection_manager.py", line 61, in __init__
+    self.ingame_detector = TemplateDetector(
+                           ^^^^^^^^^^^^^^^^^
+TypeError: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+2025-04-15 17:20:25 - ERROR    [ERROR] - Unhandled exception: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+Traceback (most recent call last):
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/core/main.py", line 101, in main
+    screen_processor = ScreenProcessor()
+                       ^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/main.py", line 82, in __init__
+    self.detection_manager = DetectionManager(templates_dir=templates_dir)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/detection_manager.py", line 61, in __init__
+    self.ingame_detector = TemplateDetector(
+                           ^^^^^^^^^^^^^^^^^
+TypeError: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'

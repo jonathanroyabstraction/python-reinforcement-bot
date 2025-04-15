@@ -5,6 +5,7 @@ This module provides a centralized manager for coordinating all detectors
 and handling the detection pipeline.
 """
 import os
+from pipes import Template
 import time
 from typing import Dict, List, Set, Tuple, Optional, Any, Type, Union
 import cv2
@@ -17,9 +18,8 @@ from src.utils.logging import debug, info, warning, error, LogCategory
 from src.utils.config import ConfigManager
 from src.vision.detectors.base_detector import BaseDetector
 from src.vision.detectors.template_detector import TemplateDetector
-from src.vision.detectors.color_detector import ColorDetector
 from src.vision.detectors.text_detector import TextDetector
-from src.vision.models.detection_result import DetectionResult, DetectionResults, BoundingBox, DetectionType
+from src.vision.models.detection_result import DetectionResults, BoundingBox, DetectionType
 from src.vision.utils.vision_utils import draw_detections
 
 
@@ -56,6 +56,15 @@ class DetectionManager:
             'total_detections': 0,
             'detection_count': 0
         }
+
+        # Detector for detecting if the game is displayed
+        self.ingame_detector = TemplateDetector(
+            name="ingame_detector",
+            templates_dir='data/templates/ingame',
+            detection_type=DetectionType.UI_ELEMENT,
+            min_confidence=0.7,
+            enabled=True
+        )
         
         # Initialize common detectors
         self._init_default_detectors(templates_dir, color_config_path)
@@ -268,10 +277,12 @@ class DetectionManager:
             # Increment frame counter
             self.frame_count += 1
             frame_id = self.frame_count
-            
-            # Store the current frame
-            self.last_frame = frame.copy()
-            
+
+            # Check if frame is in game, else skip detection
+            if not self.is_in_game(frame):
+                warning("Player not in game, skipping detection", LogCategory.VISION)
+                return DetectionResults([], frame_id, start_time)
+
             # Determine which detectors to use
             if detector_names is None:
                 detectors_to_use = [self.detectors[name] for name in self.active_detectors]
@@ -489,3 +500,8 @@ class DetectionManager:
                 with_labels=True,
                 with_confidence=True
             )
+
+    def is_in_game(self, frame: np.ndarray) -> bool: 
+        in_game_detection = self.ingame_detector.detect(frame, self.frame_count)
+
+        return len(in_game_detection.detections) > 0 and in_game_detection.detections[0].confidence > 0.8

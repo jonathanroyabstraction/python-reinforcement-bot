@@ -1679,3 +1679,430 @@
 2025-04-15 16:40:07 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
 2025-04-15 16:40:10 - INFO     [SYSTEM] - Received shutdown signal
 2025-04-15 16:40:10 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:14:13 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:14:13 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:14:13 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:14:13 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:14:13 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:14:13 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:14:13 - ERROR    [ERROR] - Unhandled exception: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+Traceback (most recent call last):
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/core/main.py", line 101, in main
+    screen_processor = ScreenProcessor()
+                       ^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/main.py", line 82, in __init__
+    self.detection_manager = DetectionManager(templates_dir=templates_dir)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/detection_manager.py", line 61, in __init__
+    self.ingame_detector = TemplateDetector(
+                           ^^^^^^^^^^^^^^^^^
+TypeError: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+2025-04-15 17:14:13 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:14:35 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:14:35 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:14:35 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:14:35 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:14:35 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:14:35 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:14:35 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:14:35 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:14:35 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:14:35 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:14:35 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:14:35 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:14:35 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:14:35 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:14:35 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:14:35 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:14:35 - DEBUG    [VISION] - Captured region 'full' in 118.16ms
+2025-04-15 17:14:35 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-171435.png
+2025-04-15 17:14:35 - DEBUG    [VISION] - Detection completed in 441.6ms with 0 objects
+2025-04-15 17:14:35 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:14:40 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:14:40 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:14:44 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:14:44 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:14:44 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:14:44 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:14:44 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:14:44 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:14:45 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:14:45 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:14:45 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:14:45 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:14:45 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:14:45 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:14:45 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:14:45 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:14:45 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:14:45 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:14:45 - DEBUG    [VISION] - Captured region 'full' in 91.45ms
+2025-04-15 17:14:45 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-171445.png
+2025-04-15 17:14:45 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744751685.406034)
+2025-04-15 17:14:45 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744751685.603627)
+2025-04-15 17:14:45 - DEBUG    [VISION] - Detection completed in 410.5ms with 2 objects
+2025-04-15 17:14:45 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:14:47 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:14:47 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:20:25 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:20:25 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:20:25 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:20:25 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:20:25 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:20:25 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:20:25 - ERROR    [ERROR] - Unhandled exception: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+Traceback (most recent call last):
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/core/main.py", line 101, in main
+    screen_processor = ScreenProcessor()
+                       ^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/main.py", line 82, in __init__
+    self.detection_manager = DetectionManager(templates_dir=templates_dir)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanroy/projects/agents/wow-bot/src/vision/detection_manager.py", line 61, in __init__
+    self.ingame_detector = TemplateDetector(
+                           ^^^^^^^^^^^^^^^^^
+TypeError: TemplateDetector.__init__() got an unexpected keyword argument 'template_path'
+2025-04-15 17:20:25 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:21:02 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:21:02 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:21:02 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:21:02 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:21:02 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:21:02 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:21:02 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:21:02 - DEBUG    [VISION] - Loaded 3 templates in 1 categories
+2025-04-15 17:21:02 - INFO     [VISION] - Template detector initialized with 3 templates
+2025-04-15 17:21:02 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:21:02 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:21:02 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:21:02 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:21:02 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:21:02 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:21:02 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:21:02 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:21:02 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:21:02 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:21:02 - DEBUG    [VISION] - Captured region 'full' in 110.26ms
+2025-04-15 17:21:02 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172102.png
+2025-04-15 17:21:02 - DEBUG    [VISION] - Detection completed in 416.2ms with 0 objects
+2025-04-15 17:21:02 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:21:04 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:21:04 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:23:42 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:23:42 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:23:42 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:23:42 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:23:42 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:23:42 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:23:42 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:23:42 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:23:42 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:23:42 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:23:42 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:23:42 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:23:42 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:23:42 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:23:42 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:23:42 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:23:42 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:23:42 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:23:42 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:23:42 - DEBUG    [VISION] - Captured region 'full' in 126.17ms
+2025-04-15 17:23:42 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172342.png
+2025-04-15 17:23:43 - DEBUG    [VISION] - Detection completed in 469.2ms with 0 objects
+2025-04-15 17:23:43 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:23:53 - DEBUG    [VISION] - Captured region 'full' in 41.35ms
+2025-04-15 17:23:53 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172353.png
+2025-04-15 17:23:53 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744752233.5190778)
+2025-04-15 17:23:53 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744752233.7408152)
+2025-04-15 17:23:53 - DEBUG    [VISION] - Detection completed in 457.4ms with 2 objects
+2025-04-15 17:23:53 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:24:03 - DEBUG    [VISION] - Captured region 'full' in 48.69ms
+2025-04-15 17:24:03 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172403.png
+2025-04-15 17:24:04 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744752244.1129339)
+2025-04-15 17:24:04 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744752244.336015)
+2025-04-15 17:24:04 - DEBUG    [VISION] - Detection completed in 468.4ms with 2 objects
+2025-04-15 17:24:04 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:24:09 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:24:09 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:27:53 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:27:53 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:27:53 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:27:53 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:27:53 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:27:53 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:27:53 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:27:53 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:27:53 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:27:53 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:27:53 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:27:53 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:27:53 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:27:53 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:27:53 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:27:53 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:27:53 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:27:53 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:27:53 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:27:53 - DEBUG    [VISION] - Captured region 'full' in 100.90ms
+2025-04-15 17:27:53 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172753.png
+2025-04-15 17:27:54 - DEBUG    [VISION] - Detection completed in 557.4ms with 0 objects
+2025-04-15 17:27:54 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:28:04 - DEBUG    [VISION] - Captured region 'full' in 47.92ms
+2025-04-15 17:28:04 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172804.png
+2025-04-15 17:28:04 - DEBUG    [VISION] - Detection completed in 531.5ms with 0 objects
+2025-04-15 17:28:04 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:28:07 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:28:07 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:28:28 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:28:28 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:28:28 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:28:28 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:28:28 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:28:28 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:28:28 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:28:28 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:28:28 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:28:28 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:28:28 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:28:28 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:28:28 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:28:28 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:28:28 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:28:28 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:28:28 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:28:28 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:28:28 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:28:28 - DEBUG    [VISION] - Captured region 'full' in 101.02ms
+2025-04-15 17:28:28 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172828.png
+2025-04-15 17:28:28 - DEBUG    [VISION] - Detection completed in 560.7ms with 0 objects
+2025-04-15 17:28:28 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:28:29 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:28:29 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:29:42 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:29:42 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:29:42 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:29:42 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:29:42 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:29:42 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:29:42 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:29:42 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:29:42 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:29:42 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:29:42 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:29:42 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:29:42 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:29:43 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:29:43 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:29:43 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:29:43 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:29:43 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:29:43 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:29:43 - DEBUG    [VISION] - Captured region 'full' in 105.54ms
+2025-04-15 17:29:43 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-172943.png
+2025-04-15 17:29:43 - DEBUG    [VISION] - Detection completed in 543.6ms with 0 objects
+2025-04-15 17:29:43 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:29:53 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:29:53 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:32:16 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:32:16 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:32:16 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:32:16 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:32:16 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:32:16 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:32:16 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:32:16 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:32:16 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:32:16 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:32:16 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:32:16 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:32:16 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:32:16 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:32:16 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:32:16 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:32:16 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:32:16 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:32:16 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:32:16 - DEBUG    [VISION] - Captured region 'full' in 104.70ms
+2025-04-15 17:32:16 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173216.png
+2025-04-15 17:32:16 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:16 - DEBUG    [VISION] - Captured region 'full' in 30.87ms
+2025-04-15 17:32:16 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173216.png
+2025-04-15 17:32:16 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:16 - DEBUG    [VISION] - Captured region 'full' in 32.12ms
+2025-04-15 17:32:16 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173216.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 28.49ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 27.31ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 28.11ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 29.17ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 43.34ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 30.78ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:17 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:17 - DEBUG    [VISION] - Captured region 'full' in 27.16ms
+2025-04-15 17:32:17 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173217.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 34.42ms
+2025-04-15 17:32:18 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 30.07ms
+2025-04-15 17:32:18 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 29.57ms
+2025-04-15 17:32:18 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 33.37ms
+2025-04-15 17:32:18 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 31.86ms
+2025-04-15 17:32:18 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 33.37ms
+2025-04-15 17:32:18 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:18 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:18 - DEBUG    [VISION] - Captured region 'full' in 27.16ms
+2025-04-15 17:32:19 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173218.png
+2025-04-15 17:32:19 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:19 - DEBUG    [VISION] - Captured region 'full' in 32.32ms
+2025-04-15 17:32:19 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173219.png
+2025-04-15 17:32:19 - WARNING  [VISION] - Error in processing loop: list index out of range
+2025-04-15 17:32:19 - DEBUG    [VISION] - Captured region 'full' in 30.40ms
+2025-04-15 17:32:19 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173219.png
+2025-04-15 17:32:19 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:32:19 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:33:09 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:33:09 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:33:09 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:33:09 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:33:09 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:33:09 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:33:09 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:33:09 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:33:09 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:33:09 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:33:09 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:33:09 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:33:09 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:33:09 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:33:09 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:33:09 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:33:09 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:33:09 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:33:09 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:33:09 - DEBUG    [VISION] - Captured region 'full' in 145.46ms
+2025-04-15 17:33:09 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173309.png
+2025-04-15 17:33:09 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:33:09 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:33:19 - DEBUG    [VISION] - Captured region 'full' in 47.74ms
+2025-04-15 17:33:19 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173319.png
+2025-04-15 17:33:19 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:33:19 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:33:29 - DEBUG    [VISION] - Captured region 'full' in 43.70ms
+2025-04-15 17:33:29 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173329.png
+2025-04-15 17:33:30 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744752810.152373)
+2025-04-15 17:33:30 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744752810.386376)
+2025-04-15 17:33:30 - DEBUG    [VISION] - Detection completed in 619.0ms with 2 objects
+2025-04-15 17:33:30 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:33:40 - DEBUG    [VISION] - Captured region 'full' in 58.27ms
+2025-04-15 17:33:40 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173340.png
+2025-04-15 17:33:40 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:33:40 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:33:50 - DEBUG    [VISION] - Captured region 'full' in 72.02ms
+2025-04-15 17:33:50 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173350.png
+2025-04-15 17:33:50 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:33:50 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:34:00 - DEBUG    [VISION] - Captured region 'full' in 54.91ms
+2025-04-15 17:34:00 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173400.png
+2025-04-15 17:34:01 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:34:01 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:34:11 - DEBUG    [VISION] - Captured region 'full' in 49.22ms
+2025-04-15 17:34:11 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173411.png
+2025-04-15 17:34:11 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:34:11 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:34:21 - DEBUG    [VISION] - Captured region 'full' in 61.32ms
+2025-04-15 17:34:21 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173421.png
+2025-04-15 17:34:21 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:34:21 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:34:31 - DEBUG    [VISION] - Captured region 'full' in 31.57ms
+2025-04-15 17:34:31 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173431.png
+2025-04-15 17:34:31 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:34:31 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:34:41 - DEBUG    [VISION] - Captured region 'full' in 55.18ms
+2025-04-15 17:34:41 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173441.png
+2025-04-15 17:34:41 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:34:41 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:34:51 - DEBUG    [VISION] - Captured region 'full' in 54.59ms
+2025-04-15 17:34:51 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173451.png
+2025-04-15 17:34:52 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:34:52 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:35:02 - DEBUG    [VISION] - Captured region 'full' in 68.06ms
+2025-04-15 17:35:02 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-173502.png
+2025-04-15 17:35:02 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:35:02 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:35:03 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:35:03 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 17:35:37 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:35:37 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 17:35:37 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 17:35:37 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 17:35:37 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 17:35:37 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 17:35:37 - DEBUG    [VISION] - Initialized ingame_detector detector
+2025-04-15 17:35:37 - DEBUG    [VISION] - Loaded 1 templates in 1 categories
+2025-04-15 17:35:37 - INFO     [VISION] - Template detector initialized with 1 templates
+2025-04-15 17:35:37 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 17:35:37 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:35:37 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 17:35:37 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 17:35:37 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 17:35:37 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 17:35:37 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 17:35:37 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 17:35:37 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 17:35:37 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 17:35:37 - DEBUG    [VISION] - Captured region 'full' in 97.49ms
+2025-04-15 17:35:37 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:35:37 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:35:47 - DEBUG    [VISION] - Captured region 'full' in 42.84ms
+2025-04-15 17:35:47 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:35:47 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:35:57 - DEBUG    [VISION] - Captured region 'full' in 47.53ms
+2025-04-15 17:35:57 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:35:57 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:36:07 - DEBUG    [VISION] - Captured region 'full' in 43.11ms
+2025-04-15 17:36:07 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:36:07 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:36:18 - DEBUG    [VISION] - Captured region 'full' in 46.73ms
+2025-04-15 17:36:18 - DEBUG    [VISION] - Detection completed in 677.2ms with 0 objects
+2025-04-15 17:36:18 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:36:28 - DEBUG    [VISION] - Captured region 'full' in 48.88ms
+2025-04-15 17:36:29 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744752989.078146)
+2025-04-15 17:36:29 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744752989.296588)
+2025-04-15 17:36:29 - DEBUG    [VISION] - Detection completed in 561.8ms with 2 objects
+2025-04-15 17:36:29 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:36:39 - DEBUG    [VISION] - Captured region 'full' in 53.01ms
+2025-04-15 17:36:39 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744752999.716498)
+2025-04-15 17:36:39 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744752999.935435)
+2025-04-15 17:36:39 - DEBUG    [VISION] - Detection completed in 580.2ms with 2 objects
+2025-04-15 17:36:39 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:36:49 - DEBUG    [VISION] - Captured region 'full' in 49.38ms
+2025-04-15 17:36:50 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744753010.336442)
+2025-04-15 17:36:50 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744753010.5700538)
+2025-04-15 17:36:50 - DEBUG    [VISION] - Detection completed in 577.0ms with 2 objects
+2025-04-15 17:36:50 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 17:37:00 - DEBUG    [VISION] - Captured region 'full' in 52.02ms
+2025-04-15 17:37:00 - WARNING  [VISION] - Player not in game, skipping detection
+2025-04-15 17:37:00 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 17:37:05 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 17:37:05 - INFO     [SYSTEM] - Shutting down WoW Bot

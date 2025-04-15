@@ -101,7 +101,7 @@ def main():
         screen_processor = ScreenProcessor()
 
         # Start processing screenshots
-        screen_processor.start_processing(detections_callback, interval=10, save_frames=True)
+        screen_processor.start_processing(detections_callback, interval=10, save_frames=False)
         
         info("WoW Bot is ready. Press Ctrl+C to exit.", LogCategory.SYSTEM)
         
