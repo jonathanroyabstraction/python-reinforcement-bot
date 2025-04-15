@@ -108,13 +108,13 @@ class ScreenCapture:
         self._width = get_config('screen_capture.resolution.width', None)
         self._height = get_config('screen_capture.resolution.height', None)
 
-        print(self._sct.monitors)
+        # Selected monitor if multiple monitors are detected
+        self._monitor = self._sct.monitors[get_config('screen_capture.monitor', 0)]
         
         if self._width is None or self._height is None:
             # Auto-detect screen resolution
-            monitor = self._sct.monitors[0]  # Primary monitor
-            self._width = monitor['width']
-            self._height = monitor['height']
+            self._width = self._monitor['width']
+            self._height = self._monitor['height']
         
         # Prepare regions from configuration
         self._regions = self._load_regions_from_config()
@@ -143,8 +143,8 @@ class ScreenCapture:
         
         # Add full screen region
         regions['full'] = {
-            'left': 0,
-            'top': 0,
+            'left': self._monitor['left'],
+            'top': self._monitor['top'],
             'width': self._width,
             'height': self._height
         }

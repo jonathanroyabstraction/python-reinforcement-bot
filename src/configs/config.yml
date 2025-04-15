@@ -28,6 +28,7 @@ system:
 # Screen capture configuration
 screen_capture:
   fps: 30  # Target frames per second
+  monitor: 2  # Monitor number
   # Resolution (if not specified, will auto-detect)
   resolution:
     width: 1920

@@ -1552,3 +1552,130 @@
 2025-04-15 16:27:21 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
 2025-04-15 16:27:22 - INFO     [SYSTEM] - Received shutdown signal
 2025-04-15 16:27:22 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 16:36:50 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 16:36:50 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 16:36:50 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 16:36:50 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 16:36:50 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 16:36:50 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 16:36:50 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 16:36:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 16:36:50 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 16:36:50 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 16:36:50 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 16:36:50 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 16:36:50 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 16:36:50 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 16:36:50 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 16:36:50 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 16:36:50 - DEBUG    [VISION] - Captured region 'full' in 141.47ms
+2025-04-15 16:36:50 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163650.png
+2025-04-15 16:36:51 - DEBUG    [VISION] - Detection completed in 468.8ms with 0 objects
+2025-04-15 16:36:51 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 16:37:01 - DEBUG    [VISION] - Captured region 'full' in 94.58ms
+2025-04-15 16:37:01 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163701.png
+2025-04-15 16:37:02 - DEBUG    [VISION] - Detection completed in 458.9ms with 0 objects
+2025-04-15 16:37:02 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 16:37:06 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 16:37:06 - INFO     [SYSTEM] - Shutting down WoW Bot
+2025-04-15 16:37:27 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 16:37:27 - INFO     [SYSTEM] - Game state initialized
+2025-04-15 16:37:27 - INFO     [SYSTEM] - WoW Bot starting up
+2025-04-15 16:37:27 - INFO     [CONFIG] - Configuration loaded from default
+2025-04-15 16:37:27 - DEBUG    [SYSTEM] - Debug mode: True
+2025-04-15 16:37:27 - DEBUG    [SYSTEM] - Log level: DEBUG
+2025-04-15 16:37:27 - DEBUG    [VISION] - Initialized player_health_text_detector detector
+2025-04-15 16:37:27 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 16:37:27 - DEBUG    [VISION] - Added detector: player_health_text_detector
+2025-04-15 16:37:27 - DEBUG    [VISION] - Initialized target_health_text_detector detector
+2025-04-15 16:37:27 - INFO     [VISION] - Tesseract OCR initialized successfully
+2025-04-15 16:37:27 - DEBUG    [VISION] - Added detector: target_health_text_detector
+2025-04-15 16:37:27 - INFO     [VISION] - Detection Manager initialized
+2025-04-15 16:37:27 - INFO     [VISION] - Screen capture initialized (1920x1080)
+2025-04-15 16:37:27 - DEBUG    [VISION] - Loaded regions: ['full', 'game', 'minimap', 'character_frame', 'action_bars', 'player_health_text', 'target_health_text', 'quest_log_area']
+2025-04-15 16:37:27 - DEBUG    [VISION] - Cache timeout: 50ms, Min frame time: 33.333333333333336ms
+2025-04-15 16:37:27 - DEBUG    [VISION] - Captured region 'full' in 107.55ms
+2025-04-15 16:37:27 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163727.png
+2025-04-15 16:37:27 - DEBUG    [VISION] - Detection completed in 478.4ms with 0 objects
+2025-04-15 16:37:27 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 16:37:37 - DEBUG    [VISION] - Captured region 'full' in 47.69ms
+2025-04-15 16:37:37 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163737.png
+2025-04-15 16:37:38 - DEBUG    [VISION] - Detection completed in 480.6ms with 0 objects
+2025-04-15 16:37:38 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 16:37:48 - DEBUG    [VISION] - Captured region 'full' in 54.18ms
+2025-04-15 16:37:48 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163748.png
+2025-04-15 16:37:48 - DEBUG    [VISION] - Detection completed in 437.4ms with 0 objects
+2025-04-15 16:37:48 - DEBUG    [SYSTEM] - Detected 0 objects from vision system
+2025-04-15 16:37:58 - DEBUG    [VISION] - Captured region 'full' in 56.89ms
+2025-04-15 16:37:59 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163758.png
+2025-04-15 16:37:59 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744749479.2558699)
+2025-04-15 16:37:59 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749479.4755552)
+2025-04-15 16:37:59 - DEBUG    [VISION] - Detection completed in 474.2ms with 2 objects
+2025-04-15 16:37:59 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 16:38:09 - DEBUG    [VISION] - Captured region 'full' in 51.05ms
+2025-04-15 16:38:09 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163809.png
+2025-04-15 16:38:09 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744749489.8965492)
+2025-04-15 16:38:10 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749490.221386)
+2025-04-15 16:38:10 - DEBUG    [VISION] - Detection completed in 616.3ms with 2 objects
+2025-04-15 16:38:10 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 16:38:20 - DEBUG    [VISION] - Captured region 'full' in 53.08ms
+2025-04-15 16:38:20 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163820.png
+2025-04-15 16:38:20 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744749500.5951018)
+2025-04-15 16:38:20 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749500.825084)
+2025-04-15 16:38:20 - DEBUG    [VISION] - Detection completed in 474.8ms with 2 objects
+2025-04-15 16:38:20 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 16:38:30 - DEBUG    [VISION] - Captured region 'full' in 61.68ms
+2025-04-15 16:38:30 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163830.png
+2025-04-15 16:38:31 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749511.599238)
+2025-04-15 16:38:31 - DEBUG    [VISION] - Detection completed in 620.2ms with 1 objects
+2025-04-15 16:38:31 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:38:41 - DEBUG    [VISION] - Captured region 'full' in 62.05ms
+2025-04-15 16:38:41 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163841.png
+2025-04-15 16:38:42 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='100', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '100', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744749522.100241)
+2025-04-15 16:38:42 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749522.413548)
+2025-04-15 16:38:42 - DEBUG    [VISION] - Detection completed in 656.1ms with 2 objects
+2025-04-15 16:38:42 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 16:38:52 - DEBUG    [VISION] - Captured region 'full' in 49.06ms
+2025-04-15 16:38:52 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163852.png
+2025-04-15 16:38:53 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749533.0017438)
+2025-04-15 16:38:53 - DEBUG    [VISION] - Detection completed in 469.9ms with 1 objects
+2025-04-15 16:38:53 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:39:03 - DEBUG    [VISION] - Captured region 'full' in 65.61ms
+2025-04-15 16:39:03 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163903.png
+2025-04-15 16:39:03 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749543.592997)
+2025-04-15 16:39:03 - DEBUG    [VISION] - Detection completed in 447.4ms with 1 objects
+2025-04-15 16:39:03 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:39:13 - DEBUG    [VISION] - Captured region 'full' in 48.04ms
+2025-04-15 16:39:13 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163913.png
+2025-04-15 16:39:13 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='35', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '35', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744749553.9422872)
+2025-04-15 16:39:14 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749554.165151)
+2025-04-15 16:39:14 - DEBUG    [VISION] - Detection completed in 447.5ms with 2 objects
+2025-04-15 16:39:14 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 16:39:24 - DEBUG    [VISION] - Captured region 'full' in 56.66ms
+2025-04-15 16:39:24 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163924.png
+2025-04-15 16:39:24 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='target_health_text_detector', detection_type=<DetectionType.TARGET_HEALTH_TEXT: 25>, label='14', bounding_box=BoundingBox(x=1166, y=756, width=25, height=14), confidence=0.5, metadata={'text': '14', 'region': 'target_health_text'}, thumbnail=None, timestamp=1744749564.562816)
+2025-04-15 16:39:24 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749564.7793548)
+2025-04-15 16:39:24 - DEBUG    [VISION] - Detection completed in 469.7ms with 2 objects
+2025-04-15 16:39:24 - DEBUG    [SYSTEM] - Detected 2 objects from vision system
+2025-04-15 16:39:34 - DEBUG    [VISION] - Captured region 'full' in 51.70ms
+2025-04-15 16:39:34 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163934.png
+2025-04-15 16:39:35 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749575.368265)
+2025-04-15 16:39:35 - DEBUG    [VISION] - Detection completed in 452.8ms with 1 objects
+2025-04-15 16:39:35 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:39:45 - DEBUG    [VISION] - Captured region 'full' in 47.79ms
+2025-04-15 16:39:45 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163945.png
+2025-04-15 16:39:45 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749585.942173)
+2025-04-15 16:39:45 - DEBUG    [VISION] - Detection completed in 448.8ms with 1 objects
+2025-04-15 16:39:45 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:39:56 - DEBUG    [VISION] - Captured region 'full' in 58.12ms
+2025-04-15 16:39:56 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-163956.png
+2025-04-15 16:39:56 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749596.526907)
+2025-04-15 16:39:56 - DEBUG    [VISION] - Detection completed in 453.9ms with 1 objects
+2025-04-15 16:39:56 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:40:06 - DEBUG    [VISION] - Captured region 'full' in 55.23ms
+2025-04-15 16:40:06 - DEBUG    [VISION] - Saved screenshot to data/screenshots/screenshot_20250415-164006.png
+2025-04-15 16:40:07 - DEBUG    [VISION] - Text detection result: DetectionResult(detector_name='player_health_text_detector', detection_type=<DetectionType.PLAYER_HEALTH_TEXT: 24>, label='100', bounding_box=BoundingBox(x=718, y=753, width=24, height=14), confidence=0.5, metadata={'text': '100', 'region': 'player_health_text'}, thumbnail=None, timestamp=1744749607.098687)
+2025-04-15 16:40:07 - DEBUG    [VISION] - Detection completed in 447.1ms with 1 objects
+2025-04-15 16:40:07 - DEBUG    [SYSTEM] - Detected 1 objects from vision system
+2025-04-15 16:40:10 - INFO     [SYSTEM] - Received shutdown signal
+2025-04-15 16:40:10 - INFO     [SYSTEM] - Shutting down WoW Bot
