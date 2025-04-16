@@ -4,14 +4,10 @@ Detection Manager for the WoW Bot vision system.
 This module provides a centralized manager for coordinating all detectors
 and handling the detection pipeline.
 """
-import os
-from pipes import Template
 import time
-from typing import Dict, List, Set, Tuple, Optional, Any, Type, Union
-import cv2
+from typing import Dict, List, Set, Optional
 import numpy as np
 import threading
-from collections import defaultdict
 import concurrent.futures
 
 from src.utils.logging import debug, info, warning, error, LogCategory
@@ -65,6 +61,7 @@ class DetectionManager:
             min_confidence=0.7,
             enabled=True
         )
+        self.ingame_detector.set_regions_of_interest({"menu_bar": BoundingBox(1630, 1037, 1920-1630, 1080-1037)})
         
         # Initialize common detectors
         self._init_default_detectors(templates_dir, color_config_path)
@@ -281,7 +278,7 @@ class DetectionManager:
             # Check if frame is in game, else skip detection
             if not self.is_in_game(frame):
                 warning("Player not in game, skipping detection", LogCategory.VISION)
-                return DetectionResults([], frame_id, start_time)
+                return None
 
             # Determine which detectors to use
             if detector_names is None:

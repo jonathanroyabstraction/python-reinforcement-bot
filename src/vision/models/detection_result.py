@@ -52,6 +52,7 @@ class DetectionType(Enum):
     # Text Types
     TEXT = auto()         # Generic text
     PLAYER_HEALTH_TEXT = auto()  # Player health text
+    PLAYER_RESOURCE_TEXT = auto()  # Player resource text
     TARGET_HEALTH_TEXT = auto()  # Target health text
     UI_TEXT = auto()      # Text in UI elements
     CHAT_TEXT = auto()    # Chat messages

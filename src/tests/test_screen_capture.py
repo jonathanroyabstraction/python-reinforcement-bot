@@ -21,7 +21,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 # Import the bot modules
 from src.utils.config import ConfigManager, get_config
 from src.utils.logging import BotLogger, LogCategory, info, debug, warning
-from src.control.screen_capture import screen_capture
 from src.control.image_processing import image_processor
 
 

@@ -5,14 +5,14 @@ Main entry point for the WoW Bot application.
 import argparse
 import os
 import sys
-import time
-from pathlib import Path
 from typing import Any, Dict, List
+
+from src.core.core_manager import CoreManager
+from src.vision.models.detection_result import DetectionResults
 
 # Simple imports that work reliably
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
-from src.decision.state import GameState
 from src.vision.main import ScreenProcessor
 from src.utils.config import ConfigManager, get_config, set_config
 from src.utils.logging import configure as configure_logging, info, error, debug, warning, critical, exception, LogCategory
@@ -73,9 +73,10 @@ def init_game_state():
     """Initialize the game state."""
     return
 
-def detections_callback(detections: List[Dict[str, Any]]):
+def detections_callback(detection_results: DetectionResults):
     """Callback function for detections."""
-    debug(f"Detected {len(detections)} objects from vision system", LogCategory.SYSTEM)
+
+    debug(f"Detected {len(detection_results.detections)} objects from vision system", LogCategory.SYSTEM)
     return
     
 
@@ -94,14 +95,12 @@ def main():
         # Initialize logging
         init_logging()
 
-        # Initialize game state
-        game_state = init_game_state()
-        
         # Initialize screen processor
         screen_processor = ScreenProcessor()
+        core_manager = CoreManager()
 
         # Start processing screenshots
-        screen_processor.start_processing(detections_callback, interval=10, save_frames=False)
+        screen_processor.start_processing(core_manager.process_vision_detections, interval=5, save_frames=False)
         
         info("WoW Bot is ready. Press Ctrl+C to exit.", LogCategory.SYSTEM)
         

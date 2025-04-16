@@ -7,7 +7,7 @@ from typing import Callable, Dict, List, Any
 
 from src.utils.logging import info, debug, warning, LogCategory
 from src.vision.capture.screen_capture import ScreenCapture
-from src.vision.models.detection_result import DetectionType
+from src.vision.models.detection_result import DetectionResult, DetectionResults, DetectionType
 from src.vision.detection_manager import DetectionManager
 from src.decision.state.game_state import GameState
 
@@ -112,7 +112,7 @@ class ScreenProcessor:
     
     def process_frame(self, frame: np.ndarray,
                      save: bool = False,
-                     visualize: bool = True) -> Dict[str, Any]:
+                     visualize: bool = True) -> DetectionResults:
         """
         Process a WoW screenshot and update game state.
         
@@ -133,18 +133,6 @@ class ScreenProcessor:
             visualization=visualize
         )
         
-        # Convert to list of dictionaries for easier processing
-        detections_list = []
-        for detection in results.detections:
-            detections_list.append({
-                'label': detection.label,
-                'detection_type': detection.detection_type,
-                'bounding_box': detection.bounding_box,
-                'confidence': detection.confidence,
-                'metadata': detection.metadata,
-                'region': detection.metadata.get('region', None)
-            })
-        
         # Show visualization if requested
         if visualize and results.visualization is not None:
             try:
@@ -157,15 +145,10 @@ class ScreenProcessor:
                 # Make sure to close windows properly
                 cv2.destroyWindow("WoW Detection Results")
         
-        return {
-            'frame_id': results.frame_id,
-            'timestamp': results.timestamp,
-            'detections': detections_list,
-            'detection_count': len(results.detections)
-        }
+        return results
     
     def start_processing(self, 
-                        detections_callback: Callable[[List[Dict[str, Any]]], None],
+                        detections_callback: Callable[[DetectionResults], None],
                         interval: float = 1,
                         save_frames: bool = False,
                         visualize: bool = False) -> None:
@@ -181,7 +164,7 @@ class ScreenProcessor:
         
         def processing_loop():
             while self.running:
-                try:
+                #try:
                     # Get full game frame
                     frame = self.capture.capture()
                     
@@ -194,12 +177,12 @@ class ScreenProcessor:
                         )
                         
                         # Call detections callback
-                        detections_callback(frame_process_results['detections'])
+                        detections_callback(frame_process_results)
                     
                     # Wait for the next interval
                     time.sleep(interval)
-                except Exception as e:
-                    warning(f"Error in processing loop: {str(e)}", LogCategory.VISION)
+                #except Exception as e:
+                #    warning(f"Error in processing loop: {str(e)}", LogCategory.VISION)
         
         # Start processing in a separate thread
         #self.processing_thread = threading.Thread(target=processing_loop)

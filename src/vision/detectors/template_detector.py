@@ -176,6 +176,8 @@ class TemplateDetector(BaseDetector):
         Returns:
             DetectionResults containing all matched templates
         """
+        start_time = time.time()
+
         results = DetectionResults([], frame_id, time.time())
         
         # Process each region if specified
@@ -197,6 +199,10 @@ class TemplateDetector(BaseDetector):
             # Process entire frame
             full_results = self._match_templates(frame, frame_id)
             results.detections.extend(full_results.detections)
+
+        end_time = time.time()
+        duration = (end_time - start_time) * 1000
+        debug(f"Template detection took {duration:.2f} ms for {self.name}", LogCategory.VISION)
             
         return results
     

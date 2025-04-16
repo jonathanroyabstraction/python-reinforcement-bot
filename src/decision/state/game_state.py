@@ -122,7 +122,7 @@ class GameState:
         """
         # Initialize state components
         self.player = PlayerState()
-        self.target = TargetState()
+        self.target = None
         self.abilities = AbilityState()
         self.environment = EnvironmentState()
         
@@ -428,7 +428,7 @@ class GameState:
             self.last_updated = time.time()
             
         new_resource = self.player.current_resource
-        self.notify_observers(GameStateChangeType.PLAYER_RESOURCE, old_mana, new_mana)
+        self.notify_observers(GameStateChangeType.PLAYER_RESOURCE, old_mana, new_resource)
     
     def update_player_position(self, x: float, y: float, z: float = None) -> None:
         """Update the player's position."""
@@ -482,33 +482,24 @@ class GameState:
             
         self.notify_observers(GameStateChangeType.TARGET_CHANGED, old_target, target)
     
-    def clear_target(self) -> None:
-        """Clear the current target."""
-        old_target = self.target
-        
-        with self._lock:
-            self.target = TargetState()
-            self.last_updated = time.time()
-            
-        self.notify_observers(GameStateChangeType.TARGET_CHANGED, old_target, self.target)
-    
-    def update_target_health(self, current: int, maximum: int = None) -> None:
+    def update_target_health(self, current: int) -> None:
         """Update target health values."""
-        if not self.target.name:
+        if not self.target:
             return
-            
-        old_health = (self.target.current_health, self.target.health_max)
+
+        old_health = self.target.current_health
         
         with self._lock:
-            self.target.update_health(current, maximum)
+            self.target.update_health(current)
             self.last_updated = time.time()
             
-        new_health = (self.target.current_health, self.target.health_max)
+        new_health = self.target.current_health
+
         self.notify_observers(GameStateChangeType.TARGET_HEALTH, old_health, new_health)
     
     def update_target_position(self, position: Position) -> None:
         """Update the target's position."""
-        if not self.target.name:
+        if not self.target:
             return
             
         old_position = Position(
@@ -525,7 +516,7 @@ class GameState:
     
     def update_target_cast(self, is_casting: bool, name: str = "", time_remaining: float = 0.0) -> None:
         """Update target casting information."""
-        if not self.target.name:
+        if not self.target:
             return
             
         old_cast = (self.target.is_casting, self.target.cast_name, self.target.cast_time_remaining)
@@ -582,139 +573,6 @@ class GameState:
                   is_instance if is_instance is not None else self.environment.is_instance,
                   instance_name if instance_name is not None else self.environment.instance_name)
         self.notify_observers(GameStateChangeType.ENVIRONMENT_ZONE, old_zone, new_zone)
-    
-    # Screen capture integration
-    def update_from_screen_capture(self, screen_data: Dict) -> None:
-        """
-        Update game state based on information extracted from screen capture.
-        
-        Args:
-            screen_data: Dictionary containing parsed information from screen
-        """
-        with self._lock:
-            # Process player information
-            player_data = screen_data.get("player", {})
-            if "health" in player_data:
-                self.update_player_health(
-                    player_data["health"].get("current", self.player.current_health)                
-                    )
-                
-            if "mana" in player_data:
-                self.update_player_mana(
-                    player_data["mana"].get("current", self.player.current_resource)
-                )
-                
-            if "position" in player_data:
-                pos = player_data["position"]
-                self.update_player_position(
-                    pos.get("x", self.player.position.x),
-                    pos.get("y", self.player.position.y),
-                    pos.get("z", self.player.position.z)
-                )
-                
-            if "combat" in player_data:
-                self.update_player_combat_status(player_data["combat"])
-                
-            # Process target information
-            target_data = screen_data.get("target", {})
-            if target_data.get("name"):
-                # Create or update target
-                new_target = TargetState(
-                    name=target_data.get("name", ""),
-                    guid=target_data.get("guid", ""),
-                    target_type=target_data.get("type", self.target.target_type),
-                    level=target_data.get("level", 1),
-                    is_elite=target_data.get("is_elite", False),
-                    is_rare=target_data.get("is_rare", False)
-                )
-                
-                if "health" in target_data:
-                    new_target.current_health = target_data["health"].get("current", 0)
-                    new_target.health_max = target_data["health"].get("max", 100)
-                    
-                if "position" in target_data:
-                    pos = target_data["position"]
-                    new_target.position = Position(
-                        x=pos.get("x", 0.0),
-                        y=pos.get("y", 0.0),
-                        z=pos.get("z", 0.0)
-                    )
-                    new_target.distance = new_target.position.distance_to(self.player.position)
-                    
-                if "casting" in target_data:
-                    cast_info = target_data["casting"]
-                    new_target.is_casting = cast_info.get("is_casting", False)
-                    new_target.cast_name = cast_info.get("name", "")
-                    new_target.cast_time_remaining = cast_info.get("time_remaining", 0.0)
-                    
-                self.set_target(new_target)
-            elif self.target.name and not target_data.get("exists", True):
-                # Clear target if it no longer exists
-                self.clear_target()
-                
-            # Process ability information
-            ability_data = screen_data.get("abilities", {})
-            if "cooldowns" in ability_data:
-                for ability_name, cooldown in ability_data["cooldowns"].items():
-                    self.update_ability_cooldown(ability_name, cooldown)
-                    
-            if "resources" in ability_data:
-                for resource_name, data in ability_data["resources"].items():
-                    try:
-                        # Use Resource directly instead of AbilityState.Resource
-                        from src.decision.state.ability_state import Resource
-                        resource_type = getattr(Resource, resource_name.upper())
-                        self.update_resource(
-                            resource_type, 
-                            data.get("current", 0),
-                            data.get("max", None)
-                        )
-                    except (AttributeError, ValueError):
-                        warning(f"Unknown resource type: {resource_name}", LogCategory.SYSTEM)
-                        
-            # Process environment information
-            env_data = screen_data.get("environment", {})
-            if "entities" in env_data:
-                for entity_data in env_data["entities"]:
-                    if "id" in entity_data and "name" in entity_data:
-                        # Create position for entity
-                        pos_data = entity_data.get("position", {})
-                        position = Position(
-                            x=pos_data.get("x", 0.0),
-                            y=pos_data.get("y", 0.0),
-                            z=pos_data.get("z", 0.0)
-                        )
-                        
-                        from src.decision.state.environment_state import Entity
-                        entity = Entity(
-                            id=entity_data["id"],
-                            name=entity_data["name"],
-                            entity_type=entity_data.get("type", "unknown"),
-                            position=position,
-                            is_hostile=entity_data.get("is_hostile", False),
-                            is_friendly=entity_data.get("is_friendly", False),
-                            is_neutral=entity_data.get("is_neutral", True),
-                            is_elite=entity_data.get("is_elite", False),
-                            level=entity_data.get("level", 1),
-                            health_percent=entity_data.get("health_percent", 100.0)
-                        )
-                        
-                        entity.distance = entity.position.distance_to(self.player.position)
-                        self.add_entity(entity)
-                        
-            if "zone" in env_data:
-                zone_data = env_data["zone"]
-                self.update_zone_info(
-                    zone=zone_data.get("name", ""),
-                    subzone=zone_data.get("subzone", None),
-                    is_instance=zone_data.get("is_instance", None),
-                    instance_name=zone_data.get("instance_name", None)
-                )
-                
-            # After updating, add to history
-            self.add_to_history()
-            
-            info("Game state updated from screen capture", LogCategory.SYSTEM)
     
     def to_dict(self) -> Dict:
         """Convert game state to a dictionary for serialization."""

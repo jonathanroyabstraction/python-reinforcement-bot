@@ -26,7 +26,7 @@ logging.addLevelName(TRACE_LEVEL, "TRACE")
 class LogCategory(Enum):
     """Categories for logging to allow filtering and organization."""
     SYSTEM = "SYSTEM"       # Core system logs
-    CONTROL = "CONTROL"     # Input/output and screen capture
+    CONTROL = "CONTROL"     # Control flow
     COMBAT = "COMBAT"       # Combat-related activities
     NAVIGATION = "NAV"      # Movement and pathing
     ML = "ML"               # Machine learning
